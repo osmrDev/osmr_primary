@@ -1,0 +1,2627 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnFirst": 3.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_01",
+                        "textHome": "My name's Kirika Kure."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100,
+                        "textHome": "I'll do you a favor...and tell you\njust how wonderful Oriko is."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "id": 400200,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "textHome": "She pulled me out of the jaws of darkness\nthat were about to consume me!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.4,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.9,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200,
+                        "textHome": "She's caring and kind...pretty much\nthe holy mother incarnate."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "textHome": "No, no, that's a good enough intro for me."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "textHome": "Everything I am is devoted to her."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.6,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_10": [
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_18",
+                        "textHome": "It's all right...don't worry, Oriko."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "textHome": "We can look forward to whatever final\nform I take when despair takes me over..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "No matter how I end up,\nI know I will never harm you."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_11": [
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_19",
+                        "textHome": "There's nothing I can't overcome!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300,
+                        "textHome": "The limit of my love for her is infinite!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_12": [
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_20",
+                        "textHome": "Ahh, Oriko!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "I've become someone worthy of you!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_13": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_21",
+                        "textHome": "You are the lone person in this world\nworthy of my devotion!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 100,
+                        "textHome": "So I won't falter for a second in my mission."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "textHome": "Let's head forward together, Oriko!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_14": [
+            {
+                "autoTurnFirst": 1.9,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_22",
+                        "textHome": "Hey, Oriko, how do you wanna\nuse my new power?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.6,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.1,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200,
+                        "textHome": "Agh, I can barely wait to hear\nwhat orders you give me!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.7,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "I can't help wanting to use it\nin your honor as soon as I can..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.3,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.8,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.2,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "textHome": "And of course,\nI'll follow your orders to the letter."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.1,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_15": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_23"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.2,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 400200,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_16": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_24",
+                        "textHome": "Oh, it's you."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100,
+                        "textHome": "*Sigh* It's so boring when Oriko's not here."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "Do you know where she went?"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_17": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200,
+                        "motion": 100,
+                        "pos": 1,
+                        "tear": 1,
+                        "voice": "vo_char_4002_00_25",
+                        "textHome": "Zz..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0,
+                        "tear": 0,
+                        "textHome": "ngh... I can't seem to wake up today."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "Maybe I'll wake up if I drink some tea\nwith a spoonful of jam in it."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_18": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_26",
+                        "textHome": "Ugh, so hungry. Starving, in fact!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "All right, that's it! I'm gonna eat the\nbest parfait in the universe with Oriko!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_19": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_27",
+                        "textHome": "Don't bother me with petty stuff.\nI'm only interested in info about Oriko."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0,
+                        "textHome": "My whole body...my brain..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 300,
+                        "textHome": "They only exist to serve Oriko."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_03"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_20": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_28",
+                        "textHome": "Have you seen Kyubey?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100,
+                        "textHome": "Oh, it's not me looking for it."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "I couldn't care less myself."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0,
+                        "textHome": "Oriko was looking for him."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_21": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_29",
+                        "textHome": "People who think love can be measured \ndon't know what real love truly is..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "textHome": "My love for Oriko is so great that it\ncould never be quantified like that."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_22": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_30",
+                        "textHome": "Don't tell me you're not ready yet!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100,
+                        "textHome": "I wanna finish things up so I can go\nspend time with Oriko!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_23": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_31",
+                        "textHome": "It's almost time to fight..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100,
+                        "textHome": "I'm not scared!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "If it's for Oriko..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 300,
+                        "textHome": "I'm totally ready for this!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_24": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_32"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_25": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_33",
+                        "textHome": "Oriko's pancakes are better\nthan any other sweets."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0,
+                        "textHome": "She makes them for\nme whenever I ask."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.4,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.8,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100,
+                        "textHome": "I bet you're jealous, huh?"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_26": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_34",
+                        "textHome": "What's wrong with having a sweet tooth?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.6,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "Adults like sweets just as much as kids."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.4,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0,
+                        "textHome": "It's wrong to treat someone like a child \njust because they like sweets."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_27": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_35",
+                        "textHome": "Have you seen the doll Oriko gave me?!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "It's a rabbit!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200,
+                        "textHome": "Why do I do this to myself?\nWhere did I put it?!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_28": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 400200,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_36",
+                        "textHome": "Ack!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "textHome": "What's with you, all of a sudden?!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "I'm telling you now, I won't let \nyou lay a finger on Oriko!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_29": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_37",
+                        "textHome": "It doesn't matter how much we talk."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300,
+                        "textHome": "I'll have forgotten all about \nyou next time we meet..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0,
+                        "textHome": "I don't care about anyone except Oriko."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_04"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_30": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_38",
+                        "textHome": "I can't drink tea without sugar."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 1,
+                        "textHome": "My tea always needs three sugar cubes \nand three spoonfuls of jam..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 400200,
+                        "textHome": "*Sigh*..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "Oriko's gonna treat me like a kid again."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_31": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_39",
+                        "textHome": "I became a Magical Girl\nso I could be with Oriko."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100,
+                        "textHome": "As long as we're together,\nI won't have any regrets,\nno matter what despair I face."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_32": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_40",
+                        "textHome": "All right, fine."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 1,
+                        "textHome": "I guess I can talk to you for a bit.\nI'm so bored without Oriko."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_33": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_41",
+                        "textHome": "God you're persistent."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": "What? You're trying to interrupt \nmy time with Oriko? "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "textHome": "Seriously, learn your place."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_34": [
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_42",
+                        "textHome": "Ready? It's showtime!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_35": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_43",
+                        "textHome": "What? You're done already?"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_36": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_44",
+                        "textHome": "As to be expected."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_37": [
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_45",
+                        "textHome": "Hey, that was actually kind of fun."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_38": [
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_46",
+                        "textHome": "Don't underestimate my love."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_39": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_63"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_4": [
+            {
+                "autoTurnFirst": 2.6,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_05"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.4,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_40": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_64"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_41": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_65"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 400200,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_42": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_66"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_43": [
+            {
+                "autoTurnFirst": 1.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_02",
+                        "textHome": "I'm Kirika Kure."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 100,
+                        "textHome": " You might've heard of the\n\"Dark Magical Girl\", that's me."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 400200,
+                        "motion": 200,
+                        "textHome": " If you raise a hand against Oriko...\nI won't waste a second crushing you."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 400200,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_5": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_13",
+                        "textHome": "Aaah... "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300,
+                        "textHome": "I can feel Oriko's love!\nHer love is what spurs me on!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_6": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_14",
+                        "textHome": "Don't think this is the best I have to offer."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "textHome": "My love for her is endless."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_7": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_15",
+                        "textHome": "I feel totally rejuvenated.\nI hate to be tied down by\nanything other than Oriko..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_8": [
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_16",
+                        "textHome": "My devotion to her is infinite!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 1,
+                        "textHome": "A murderer, a Witch... It doesn't matter\nif the rest of the world comes to despise me,"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 300,
+                        "textHome": "I will become anything if it's for her sake!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_9": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 400200,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4002_00_17",
+                        "textHome": "If you walk the path of a Magical Girl\nyou can't afford to hesitate,\nnot even for a millisecond."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 0,
+                        "textHome": "I'd gladly fall into despair\nif it would protect Oriko."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 400200,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 400200,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 400200,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ]
+    },
+    "version": 2
+}

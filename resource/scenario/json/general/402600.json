@@ -1,0 +1,2050 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnFirst": 4.25,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_01",
+                        "textHome": "Greetings. I am Elisa Celjska, daughter of\nEmpress Barbara of the Holy Roman Empire!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "textHome": "Why do you look so shocked?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5.9,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "textHome": "One must bear their name with pride,\nno matter who they are."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "textHome": "My mother taught me that!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_10": [
+            {
+                "autoTurnFirst": 9.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 1,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_17",
+                        "textHome": "Her plain, simple trust in me,\nthough we only just met.\nSuch unshakable humility."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600,
+                        "motion": 300,
+                        "textHome": "Darc has all the qualities I lack."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_11": [
+            {
+                "autoTurnFirst": 7.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_18",
+                        "textHome": "Exiled from the Imperial Palace,\nI returned thanks to my magic."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600,
+                        "motion": 300,
+                        "textHome": "The only one who'd talk to me\nin that time was Uncle Oswald."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.1,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_12": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_19",
+                        "textHome": "I see my weapons have improved\nas much as I have!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_13": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_20",
+                        "textHome": "Have my escapades on the battlefront\nfinally paid off?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_14": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_21",
+                        "textHome": "I will use this power to clear\na way to the future!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 0,
+                        "textHome": "I hold no stock in prophecies."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600,
+                        "textHome": "If all my battles until now were written\noff as that, I couldn't handle it!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.1,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_15": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_22",
+                        "textHome": "My mother, Empress Barbara,\nhad one wish: peace in Europe."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 0,
+                        "textHome": "With my power and Darc's aid,\nI can grant her wish."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200,
+                        "textHome": "My pride and the Holy Roman Empire's\nOrder of the Dragon count on it!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_16": [
+            {
+                "autoTurnFirst": 5.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_23"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.6,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_17": [
+            {
+                "autoTurnFirst": 3.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_24",
+                        "textHome": "How do you do, are you well?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "textHome": "Ah, was that odd?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "textHome": "I merely wanted to greet you\nas I do court nobles."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_18": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_25",
+                        "textHome": "Mm? What is it...?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600,
+                        "textHome": "Oh?! "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 400,
+                        "textHome": "Morning already?\nW-wait a moment!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5.5,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200,
+                        "textHome": "I'll get changed and be right out the door!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_19": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_26",
+                        "textHome": "Time for us to eat."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 7,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1,
+                        "textHome": "Now, now, don't stand on ceremony for me!\nI fight alongside the Order of the Dragon."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 100,
+                        "textHome": "I'm used to messy eaters."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnFirst": 8.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_02",
+                        "textHome": "I am the daughter of Barbara Celjska,\nempress to the Holy Roman\nEmperor Sigismund."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.2,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600,
+                        "textHome": "I am Elisa Celjska,\nof the Order of the Dragon!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.6,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.6,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "textHome": "Glad to meet you."
+                    }
+                ],
+                "autoTurnFirst": 2
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_20": [
+            {
+                "autoTurnFirst": 4.8,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_27",
+                        "textHome": "What is it, Oswald? Honestly,\nI told you  I was taking a bath... Hm?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "textHome": "Oh, it's you."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "textHome": "This must be really important then, yes?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.2,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_21": [
+            {
+                "autoTurnFirst": 5.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_28",
+                        "textHome": "I will rest up now, to prepare\nfor the battles ahead."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 300,
+                        "textHome": "I have dedicated myself to the Holy\nRoman Emperor...as well as my mother."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_22": [
+            {
+                "autoTurnFirst": 5.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_29",
+                        "textHome": "Magical Girls are gathering en masse,\nas though drawn here by Darc."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 0,
+                        "textHome": "Understandable, as this battle will\ndecide Europe's future..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_23": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_30",
+                        "textHome": "All right! Enough fooling around!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600,
+                        "textHome": "Have you forgotten that this is a war zone?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "textHome": "You're starting to look sloppy."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200,
+                        "textHome": "Ready yourselves!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_24": [
+            {
+                "autoTurnFirst": 5.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_31",
+                        "textHome": "A foe is a foe, even if they take\nthe form of a Magical Girl."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 300,
+                        "textHome": "I will blast them away,\nin honor of the Dragons!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_25": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_32"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.3,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.1,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_26": [
+            {
+                "autoTurnFirst": 4.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_33",
+                        "textHome": "Please, you needn't call me \"Princess\".\nJust \"Elisa\" will do."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "textHome": "We can put formalities aside..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 200,
+                        "textHome": "I don't care for that kind of thing, anyway."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_27": [
+            {
+                "autoTurnFirst": 3.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_34",
+                        "textHome": "Hm? My weapon?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 100,
+                        "textHome": "Oho! "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5.8,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 200,
+                        "textHome": "Alchemical metallurgy grants it the power\nof five rifles. A magic gun, given to me\nby Per... an alchemist!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.8,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.2,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.6,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_28": [
+            {
+                "autoTurnFirst": 6.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_35",
+                        "textHome": "The mission my mother tasked the Order\nof the Dragon with was clear:"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6.5,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 300,
+                        "textHome": "Ascertain La Pucelle's power,\nand aid her if it is genuine."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_29": [
+            {
+                "autoTurnFirst": 8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_36",
+                        "textHome": "I am a Magical Girl because I met the\nalchemist Pernelle and Qube."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 402600,
+                        "motion": 0,
+                        "textHome": "I want to scold my younger self\nfor trusting them so easily!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 1,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_03"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_30": [
+            {
+                "autoTurnFirst": 5.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_37",
+                        "textHome": "Liz was born in Italy.\nShe called me \"Principessa Elisa\" once...\nmeaning \"Princess Elisa\"."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.8,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "textHome": "I told her to stop, though.\nIt sounds so formal."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_31": [
+            {
+                "autoTurnFirst": 5.7,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_38",
+                        "textHome": "Melissa... You know, when I first fought\nher she flung me right into the air! "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 400
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.3,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1,
+                        "textHome": "Why, if I get a rematch,\r\nI'll pay her back for that!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.8,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.7,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_32": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_39",
+                        "textHome": "I am no princess."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600,
+                        "motion": 300,
+                        "textHome": "I am the love child of my mother,\nEmpress Barbara..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "textHome": "To justify my existence,\nI've been no stranger to battle."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_33": [
+            {
+                "autoTurnFirst": 7.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_40",
+                        "textHome": "Darc has always been willing\nto fight selflessly for others,\nshe never falters or fades."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "textHome": "I respect that about her."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_34": [
+            {
+                "autoTurnFirst": 5.7,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_41",
+                        "textHome": "Y-you're saying...\n\"Monsieur Angel\" is really Qube?!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 0,
+                        "textHome": "There is nothing angelic about\nthat wretched little cheesecake!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_35": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_42",
+                        "textHome": "I shall take care of this...with style!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_36": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_43",
+                        "textHome": "No need to thank me."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_37": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_44",
+                        "textHome": "It appears this match has been decided."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_38": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_45",
+                        "textHome": "Das Ende! It's all over."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_39": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_46"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_4": [
+            {
+                "autoTurnFirst": 1.9,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 300,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_04"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_40": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_63"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_41": [
+            {
+                "autoTurnFirst": 1.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_64"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.1,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_42": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_65"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_43": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_4026_00_66"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_5": [
+            {
+                "autoTurnFirst": 3.6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_05"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_6": [
+            {
+                "autoTurnFirst": 1.7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_13",
+                        "textHome": "I'll use this power to make everyone\nacknowledge me!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.8,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.8,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_7": [
+            {
+                "autoTurnFirst": 5.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_14",
+                        "textHome": "Now no one can rival my strength?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "id": 402600,
+                        "lipSynch": 0,
+                        "textHome": "Y-you flatter me!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.8,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_8": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_15",
+                        "textHome": "I see that you are skilled in your own right."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "textHome": " Impressive."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_9": [
+            {
+                "autoTurnFirst": 6.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600,
+                        "lipSynch": 1,
+                        "motion": 300,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_16",
+                        "textHome": "I face Melissa's wrath if I say the\nslightest thing against Darc."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "textHome": "Plus I sense a certain homicidal\nrage from Liz, too..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ]
+    },
+    "version": 3
+}

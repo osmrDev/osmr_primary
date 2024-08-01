@@ -1,0 +1,1975 @@
+{
+    "skipTransitionList": [],
+    "story": {
+        "group_1": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_01",
+                        "textHome": "Sometimes, I'm a passionate girl aiming for\na perfect twelve-year attendance award."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6.5,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 100,
+                        "textHome": "Other times, I'm a\nChinese restaurant owner's daughter,\nworking hard to serve food."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.2,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "But the real me is actually..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 110300,
+                        "motion": 101,
+                        "textHome": "Uwasa Tsuruno, manager of Chelation Land!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 200,
+                        "textHome": "C'mon, everyone!\nLet's just lie around together!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_10": [
+            {
+                "autoTurnFirst": 7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_18",
+                        "textHome": "We haven't opened yet, but the staff is busy\npracticing how to greet customers."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 300,
+                        "textHome": "I should probably practice too,\nbut it's a pain so I'll just take a nap."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_11": [
+            {
+                "autoTurnFirst": 1.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_19",
+                        "textHome": "Now I can scare our bad customers away!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 201
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_12": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_20",
+                        "textHome": "Yeah, I'm getting more used to\nbeing an Uwasa."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_13": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_111.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_21",
+                        "textHome": "This is a great place.\nEveryone protects me here, and I don't\nhave to think hard about stuff."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5.5,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 110300,
+                        "motion": 200,
+                        "textHome": "But if push comes to shove,\nI'm the manager so I'll keep\nthis place safe."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_14": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 101,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_22",
+                        "textHome": "I can sense magic flowing into the\nUwasa from all the visitors."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.1,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110300,
+                        "textHome": "That must mean I've fused\neven more with it, right?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110300,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 100,
+                        "textHome": "In other words, I myself am Chelation Land."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 110300,
+                        "motion": 101,
+                        "textHome": "I won't let anyone deny our existence!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_15": [
+            {
+                "autoTurnFirst": 9,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_23"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.4,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 110300,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.1,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_16": [
+            {
+                "autoTurnFirst": 1.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_24",
+                        "textHome": "Welcome to Chelation Land!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 201
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "I'm your ever-present manager, Tsuruno Yui."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "textHome": "Let's just relax together some more today!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_17": [
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_25",
+                        "textHome": "We're expecting to be really busy on opening\nmorning, so we're rehearsing again today."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "Though I'm just in the food court\nsipping miso soup..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_18": [
+            {
+                "autoTurnFirst": 1.6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_26",
+                        "textHome": "There's a Chelation Land Parade\nthat happens at noon."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "It's a soothing event where all the staff\nwhoosh your worries away!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_19": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_27",
+                        "textHome": "Banbanzai tends to get busy\naround this time. "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 110300,
+                        "motion": 300,
+                        "textHome": "Sorry Dad... I wanna help you out,\nbut I just don't feel like going back."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_133.exp.json",
+                        "id": 110300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_03"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_20": [
+            {
+                "autoTurnFirst": 8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_28",
+                        "textHome": "I never get sleepy,\nno matter how late it gets..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110300,
+                        "motion": 200,
+                        "textHome": "I do kinda miss Yachiyo telling me\nto hurry up and go to sleep, though..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_21": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_29",
+                        "textHome": "I hope Chelation Land opens soon..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 200,
+                        "textHome": "I'm so excited for everyone to have fun,\nrelax, and stay here forever!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_22": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_30",
+                        "textHome": "Seems a Witch showed up outside\nChelation Land."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 1,
+                        "textHome": "But hey, I'm not worried, not worried at all!\nSome other Magical Girl will come for it.\nI'm sure of it."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_23": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_31",
+                        "textHome": "If you're that worried about the Mirror Witch,\nyou can go fight it and then come back."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 7.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_133.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "But remember, we're in Chelation Land,\nso getting all worked up\ngoes against the Rumor..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_24": [
+            {
+                "autoTurnFirst": 6.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_32"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 110300,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_25": [
+            {
+                "autoTurnFirst": 8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110300,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_33",
+                        "textHome": "I know this is an amusement park,\nbut I wish we had stuff to help us relax."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 101,
+                        "textHome": "Bean bag chairs, manga,\nautomatic candy dispensers,\nthings like that."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_26": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_150.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_34",
+                        "textHome": "Huh? Oh, sorry..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_111.exp.json",
+                        "id": 110300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "I feel so good I zoned out for a sec."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_27": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_35",
+                        "textHome": "How do I wanna spend my time,\nif I don't have to stress or work hard\nat anything?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.1,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 110300,
+                        "motion": 300,
+                        "textHome": "Huh..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "I guess I wish Master and the others\nwere here so I could be with them."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_28": [
+            {
+                "autoTurnFirst": 1.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110300,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_36",
+                        "textHome": "Ahhh!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "How dare you poke someone\nnapping on a bench?! "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110300,
+                        "motion": 200,
+                        "textHome": "Staff! Staff!\nThere's a troublemaker over here!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_29": [
+            {
+                "autoTurnFirst": 3.6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_37",
+                        "textHome": "As the manager of Chelation Land,\nI can tell ALL the staff apart."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 200,
+                        "textHome": "Like, see that guy there?\nHis mustache is a bit lopsided, see?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_133.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_04"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_133.exp.json",
+                        "id": 110300,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_30": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110300,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_38",
+                        "textHome": "N-no, don't touch that! "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "The big Ferris wheel is crammed\nfull of everyone's worries..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110300,
+                        "motion": 200,
+                        "textHome": "It'd be dangerous to open it!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_31": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_39",
+                        "textHome": "I could tell as soon as I saw\nthis amusement park..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_133.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "textHome": "Back then, a year ago,\nI was completely at peace..."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_32": [
+            {
+                "autoTurnFirst": 8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_40",
+                        "textHome": "It's important to do great things and wish\nfor everyone's happiness!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 101,
+                        "textHome": "But the most important thing is\nyour own inner peace!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "Being able to just let yourself go like this...\nIt's the best!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_33": [
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_41",
+                        "textHome": "*Snore* *Snore*"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "Mngh...ahh..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "Come in, Master..."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_34": [
+            {
+                "autoTurnFirst": 2.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 101,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_42",
+                        "textHome": "I'm the manager, so I'm gonna\nprotect Chelation Land!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_35": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_43",
+                        "textHome": "Everyone can exit the venue now!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_36": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_44",
+                        "textHome": "All you need to do is go with the flow!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_37": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_45",
+                        "textHome": "Hey, now it's time to chill out!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_38": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_46",
+                        "textHome": "I can feel safe here."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_39": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110300,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_63"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_4": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_05"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_40": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 110300,
+                        "motion": 201,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_64"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_41": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_65"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_42": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_66"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_43": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_02",
+                        "textHome": "Being busy, being fidgety,\nscampering around, bright and eager..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_150.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "textHome": "Which is your favorite?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_111.exp.json",
+                        "id": 110300,
+                        "motion": 300,
+                        "textHome": "Mine is \"relaxing\"."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "textHome": "If you're like me,\nyou should come visit Chelation Land."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_111.exp.json",
+                        "id": 110300,
+                        "motion": 201
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_5": [
+            {
+                "autoTurnFirst": 3.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_13",
+                        "textHome": "I don't really wanna work hard,\nbut I have to maintain my strength."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_6": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_14",
+                        "textHome": "I worked too hard!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 101,
+                        "textHome": "Time for a break."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_7": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_15",
+                        "textHome": "Sure, let's talk while we\nlounge around over there."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_8": [
+            {
+                "autoTurnFirst": 2.4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_16",
+                        "textHome": "You can't have an amusement park\nwithout a roller coaster."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110300,
+                        "motion": 201
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "textHome": "Oh, and a merry-go-round!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_9": [
+            {
+                "autoTurnFirst": 2.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 110300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1103_00_17",
+                        "textHome": "Just having fun isn't enough."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 110300,
+                        "motion": 1,
+                        "textHome": "Chelation Land's motto is\n\"Relax and be lazy,\"\nso I should also make a spot to sunbathe."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110300,
+                        "motion": 101
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,1905 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_01",
+                        "textHome": "North, south, east, and west..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "textHome": "I see people frozen from the bitter cold\nin every direction."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 110800,
+                        "motion": 200,
+                        "textHome": "I, Alina, will warm them just as the\nRumor describes, and I will do so\nwith the fine reindeer furs I wear..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.8,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 110800
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.2,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110800,
+                        "textHome": "But be warned. In exchange for my warmth,\nI will be taking some years off your life.\nAhaha!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110800,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 110800
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_10": [
+            {
+                "autoTurnFirst": 8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_17",
+                        "textHome": "The floating death masks around me are\nfrom people who traded away some of\ntheir life force to flee the bitter cold."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "textHome": "They are essentially a symbol of\ntheir own lives. Okay?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_11": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_18",
+                        "textHome": "Ahaha! I can feel the coldness inside you.\nYou must have learned the truth."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "textHome": "Do not worry. I, Alina, shall warm you."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 200,
+                        "textHome": "But in return...\nYes, you know what I want."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_12": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_19",
+                        "textHome": "Something new has bloomed inside of me..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110800,
+                        "textHome": "Along with a more potent delight than ever..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_13": [
+            {
+                "autoTurnFirst": 3.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_20",
+                        "textHome": "This form is the answer to all of my problems."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "textHome": "It is only natural I would grow used to it."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_14": [
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_21",
+                        "textHome": "Nemu is the one who made my Uwasa,\nbut to I, Alina, it feels like my own child."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 200,
+                        "textHome": "Why would I not rejoice as\nit grows up alongside me!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_15": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_22",
+                        "textHome": "Ah, there it is...\n"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 300,
+                        "textHome": "The Uwasa has seeped into my cells,\nfrom my skin to my very bones..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 110800,
+                        "textHome": "Aha, ha, ah ha ha haaa!!!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.8,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.7,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 1,
+                        "textHome": "Even Mami could not comprehend the\nlevel of control I have, now that I am\nawakened and synced with the Uwasa!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.5,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110800
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_16": [
+            {
+                "autoTurnFirst": 7,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_23"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 8,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.2,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110800
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.8,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_17": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110800,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_24",
+                        "textHome": "You've come to see me, hmm?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 300,
+                        "textHome": "Unfortunate, because I am in no mood\nto warm anyone whatsoever.\nSee yourself out."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 400,
+                        "textHome": "Addio."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_18": [
+            {
+                "autoTurnFirst": 3.2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 110800,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_25",
+                        "textHome": "Ugh, what's with the sun...\nIt's hurting my eyes!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 110800
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.8,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 400,
+                        "textHome": "Close those curtains, I'm still sleeping!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_19": [
+            {
+                "autoTurnFirst": 7,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_26",
+                        "textHome": "Ahh... Seems my sensor is finding\na plethora of frozen hearts,\neven on an evening like this."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 1,
+                        "textHome": "Being somewhat awake, now may be\na good time to start seeking them out."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_02",
+                        "textHome": "I, Alina, have cloaked myself in\nmy own personal Uwasa so that\nI may bring my art to life."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 400,
+                        "textHome": "So don't worry. You can just sit and wait\nuntil my work is done."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_20": [
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110800,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_27",
+                        "textHome": "Shoo, leave me be."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 300,
+                        "textHome": "I, Alina, work at night, but slept through it\nno thanks to that Uwasa."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "textHome": "That's why I wish to focus on my art now,\ncomprendere?"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_21": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110800,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_28",
+                        "textHome": "Being nocturnal, I'm helpless against\nthat reindeer Uwasa... "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 110800
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 300,
+                        "textHome": "*Yawn*"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.2,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110800,
+                        "textHome": "What are you looking at?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110800,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110800,
+                        "textHome": "The time has come for me to turn in,\nbuona notte."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110800,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_22": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110800,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_29",
+                        "textHome": "It's not like I always wear this..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 0,
+                        "textHome": "I, Alina, am perfectly capable of changing\nmy appearance."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110800,
+                        "motion": 300,
+                        "textHome": "For should I not, a slightly beastly air\nwould surely overtake me..."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_23": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_30",
+                        "textHome": "Witches shine brilliantly\nbecause they create the best art."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "textHome": "Which is why, I, Alina, must collect\nmore food for them to feast upon."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_24": [
+            {
+                "autoTurnFirst": 6.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_31",
+                        "textHome": "When your life has perfectly ended after\nbattling a copy of myself,\nyou will only have yourself to blame. "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 100,
+                        "textHome": "Though, I would not mind to collect and\nreuse the ash you leave behind."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_25": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_32"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 110800,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_26": [
+            {
+                "autoTurnFirst": 6.3,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_33",
+                        "textHome": "Ahh, the clouds have lifted,\nI feel revitalized..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.2,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110800,
+                        "textHome": "At long last,\nI understand what I have been striving for... "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.8,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200,
+                        "textHome": "All that remains is to create."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_27": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_34",
+                        "textHome": "\"Scream, Enlightened One\",\n\"Living Monochrome\",\nand \"The Revived Dead\"."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 0,
+                        "textHome": "The life and death I created in these series\nwere no error."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 300,
+                        "textHome": " I would like everyone to ponder upon it."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_28": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_35",
+                        "textHome": "What are you staring at?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200,
+                        "textHome": "This outfit is for I, Alina, and I alone.\nI won't be giving it away."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.3,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 400
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "textHome": "Order the materials and\nmake one for yourself."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_29": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_36",
+                        "textHome": "You participated in my installation huh?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200,
+                        "textHome": "You know, it used to not have a title,\nbut I gave it one on the final day..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "textHome": "\"Benign Humanity's Reward\"."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_03"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_30": [
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_37",
+                        "textHome": "Mifuyu's critiques were hardly useful...\nBut unlike Touka and Nemu,\nher modesty is quite bellissima."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_31": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_38",
+                        "textHome": "What inherently draws humanity together..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "textHome": "That is the origin of Alina's beauty."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200,
+                        "textHome": "That explains what excites them\nabout my creations."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "id": 110800,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_32": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_39",
+                        "textHome": "That's the thing that truly amazes me."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200,
+                        "textHome": "Never would I, Alina, have considered\nthe possibility that idiota's comic\ncould ever inspire me."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 110800
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_33": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_40",
+                        "textHome": "A judge once told me, \"Either change the\nworld or stop creating.\" You see, now I\nactually feel like changing the world..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 8.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110800,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_34": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 110800,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_41",
+                        "textHome": "These furs, could you be less\njealous of them?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200,
+                        "textHome": "Besides, they're not very comfortable\nto wear..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110800,
+                        "motion": 300,
+                        "textHome": "The innards are still intact, you see."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_35": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_42",
+                        "textHome": "I, Alina, will envelop you in my embrace!\nAh ha ha haaa!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_36": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_43",
+                        "textHome": "I went ahead and took a couple\nyears off your life in exchange."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_37": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_44",
+                        "textHome": "Ah, I can see it... It's just so thrilling..."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_38": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_45",
+                        "textHome": "For the sake of my art,\nI will one day engulf this world."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_39": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_46",
+                        "textHome": "I want you to imagine a world in ruin."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_4": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_04"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_40": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_63"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_41": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_64"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_42": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_65"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_43": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_66"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_5": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 110800,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_05"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_6": [
+            {
+                "autoTurnFirst": 3.4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_13",
+                        "textHome": "Aaah, new magical power is radiating\nwarmth along with my own."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.2,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110800
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_7": [
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_14",
+                        "textHome": "Here, I will keep you warm\nas much as I am able."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 200,
+                        "textHome": "I require compensation, however..."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_8": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_15",
+                        "textHome": "Do you see the essence of Alina's beauty?!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.6,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 0,
+                        "textHome": "Here, look deeper! Deeper! Deeper still!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_9": [
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 110800,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_1108_00_16",
+                        "textHome": "Yes, this outfit is patterned\nwith a reindeer motif."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 0,
+                        "textHome": "My goal is to warm up the frozen,\nso it should be no problem\nif I wear excessive layers."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "id": 110800,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110800,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ]
+    },
+    "version": 3
+}

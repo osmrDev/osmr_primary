@@ -1,0 +1,2255 @@
+{
+    "skipTransitionList": [],
+    "story": {
+        "group_1": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_01",
+                        "textHome": "Victory should be won fair and square."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "So, I didn't wish to win games or\nanything like that."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "textHome": "Besides, cheating to win is just plain boring.\nHours and hours of practice is what make\nthe difference on the field..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "textHome": " Nothing beats it."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 100,
+                        "textHome": "Today, tomorrow, whenever,\nI'll be practicing full blast!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_10": [
+            {
+                "autoTurnFirst": 2.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_18",
+                        "textHome": "Can't win without scoring points."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5.5,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "At the end of the day,\nbeing decisive is key."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "textHome": "You could say the same thing\nabout fighting Witches."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_11": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_19",
+                        "textHome": "My shots are better than ever!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "textHome": "I gotta keep this up!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_12": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_20",
+                        "textHome": "Now I can get two, even three,\nsteps ahead of my opponents..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.8,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 401300
+                    }
+                ],
+                "autoTurnFirst": 0.1
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_13": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_21",
+                        "textHome": "Ever get hit in the mouth right after kick-off\nand they score on you right away?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 200,
+                        "textHome": "It happens, so that's why you've gotta\nbe locked in from the get-go!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_14": [
+            {
+                "autoTurnFirst": 8.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_22",
+                        "textHome": "You play two 45-minute halves in soccer.\nThat's a full 90 minutes of staying focused."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "textHome": "It's not easy, so being relaxed before the\nmatch and during time-outs is real important."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_15": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_23"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 401300,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300
+                    }
+                ],
+                "autoTurnFirst": 2
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_16": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_24",
+                        "textHome": "Yo! Let's get started."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "Huh?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "textHome": "Oops, sorry."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "textHome": "I forgot to tell you what we're doing. \nWill you count how many reps I can do?\nPlease!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_17": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_25",
+                        "textHome": "Morning!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401300,
+                        "textHome": "Oh, me?"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "textHome": "I just had morning practice, I'm starving."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "textHome": "At times like these, I crave a huge meal!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_18": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_26",
+                        "textHome": "Yeahhh..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 7,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 401300,
+                        "textHome": "I always get so sleepy around this time!\n Really, really sleepy..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5.5,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 1,
+                        "textHome": "Between being worn out from practice and\nfull from breakfast, all I wanna do is sleep..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_19": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_27",
+                        "textHome": "It's time for some serious soccer practice!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "But I also have to hunt those Witches too...\nIn any case, this is always a busy\ntime of the day for me..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 7,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_03"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_20": [
+            {
+                "autoTurnFirst": 1.8,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "tear": 1,
+                        "voice": "vo_char_4013_00_28",
+                        "textHome": "*Yawn*"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6.4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "textHome": "I poured all my energy into soccer and\nmy Magical Girl work today. "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "No fooling around, I'm going straight to bed!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_21": [
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_29",
+                        "textHome": "The magic of soccer is that it can be\nplayed as long as you have a ball. "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "It's like this amazing universal language\nthat lets you make friends with people all\nacross the world!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_22": [
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_30",
+                        "textHome": "The playing field stretches out endlessly\nahead of me,"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.2,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 100,
+                        "textHome": "so I just gotta run to the other side!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "All right, blow the whistle!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_23": [
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_31",
+                        "textHome": "You're constantly going \"1-v-1\" \nwhen playing soccer..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "You have to use your own power to break\nthrough, or else you won't be able to get\ndown the field."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_24": [
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_32"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_25": [
+            {
+                "autoTurnFirst": 5.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_33",
+                        "textHome": "She normally never does, but whenever\nUmika gets writer's block, she starts cooking."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "It seems to help her get rid of stress."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_26": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_34",
+                        "textHome": "If I make it onto the national team,\nI'll get to compete with people all over\nthe world, right? "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "id": 401300,
+                        "textHome": "Ooohhh,\njust thinking about it gets me pumped up!"
+                    }
+                ],
+                "autoTurnFirst": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 401300
+                    }
+                ],
+                "autoTurnFirst": 0.1
+            },
+            {
+                "autoTurnLast": 5,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 0
+                    }
+                ],
+                "autoTurnFirst": 5
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_27": [
+            {
+                "autoTurnFirst": 4.4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_35",
+                        "textHome": "I can't change my soccer cleats that easily.\nMy uniform is just clothes,"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "but my cleats are a tool.\n If I've gotten used to a pair,\nI make sure to take good care of them."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_28": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_36",
+                        "textHome": "Witches use curses to bring despair..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 401300,
+                        "textHome": "But us Magical Girls were given the power\nto dispell curses and rescue everyone."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.1,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 6,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "We were given hope in the form of magic!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_29": [
+            {
+                "autoTurnFirst": 7.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_37",
+                        "textHome": "When fighting Witches, I usually keep them\nin one spot while Umika attacks them."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 100,
+                        "textHome": "That’s when Kazumi deals the finishing blow!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnFirst": 4.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_04"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_30": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_38",
+                        "textHome": "I'm confident when it comes to\nmy power and speed."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "When I fight I like to get right up\non my opponent!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 100,
+                        "textHome": "That's my foolproof strategy."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_31": [
+            {
+                "autoTurnFirst": 4.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_39",
+                        "textHome": "When it comes to having the most broad\nrange of skills, Umika definitely wins."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "She uses my strengths to her advantage\nwhen we fight together. "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 100,
+                        "textHome": "Battling by her side, it's just so reassuring."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_32": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_40",
+                        "textHome": "Kazumi is still so unstable."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "textHome": "Umika and I have to keep a close eye on her."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "We'll always be by your side, Kazumi..."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_33": [
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401300,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_41",
+                        "textHome": "Kazumi's hair? Oh, uh..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 300,
+                        "textHome": "Yeah, Umika and I cut it... "
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "textHome": "Yep, that was my first time ever cutting hair..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "You can tell, huh?"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_34": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_42",
+                        "textHome": "Yeah, kick-off time!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_35": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_43",
+                        "textHome": "The game's over, fair and square!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_36": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_44",
+                        "textHome": "This is a big win for us!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_37": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_45",
+                        "textHome": "What an intense battle!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_38": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_46",
+                        "textHome": "We won...but there's a lot more work to do."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_39": [
+            {
+                "autoTurnFirst": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_63"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_4": [
+            {
+                "autoTurnFirst": 2.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_05"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "motion": 300
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300
+                    }
+                ],
+                "autoTurnFirst": 2.5
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_40": [
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 200,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_64"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_41": [
+            {
+                "autoTurnFirst": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401300,
+                        "motion": 400,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_65"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_42": [
+            {
+                "autoTurnFirst": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_66"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_43": [
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_02",
+                        "textHome": "Hey, I'm Kaoru Maki!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 401300,
+                        "motion": 1,
+                        "textHome": "I play soccer, and being the star player on\nthe national team is my ultimate dream."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 2.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 401300,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 100,
+                        "textHome": "Send a good pass my way on the field,\nokay?"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_5": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_13",
+                        "textHome": "Sweet! All my practicing is paying off!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_6": [
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_14",
+                        "textHome": "That should about do it!"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300
+                    }
+                ],
+                "autoTurnFirst": 1
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 200,
+                        "textHome": "I feel light as a feather!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_7": [
+            {
+                "autoTurnFirst": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_15",
+                        "textHome": "Finally!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 100,
+                        "textHome": "It's time for the next kick off!"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_8": [
+            {
+                "autoTurnFirst": 3.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_16",
+                        "textHome": "The basics of soccer all come down\nto stopping and kicking."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 401300,
+                        "textHome": "It sounds easy, but there's a lot to it..."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "textHome": " Explaining will take forever,\nso let's just play sometime!"
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "id": 401300,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ],
+        "group_9": [
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 401300,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4013_00_17",
+                        "textHome": "In the middle of a match, there's no time\nto think about your next move."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 4.4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 401300,
+                        "textHome": "You've gotta feel it. That's why we practice\nthe same thing over and over."
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 401300,
+                        "motion": 0,
+                        "textHome": "That's how you reach the goal."
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 401300,
+                        "textHomeStatus": "Clear"
+                    }
+                ]
+            }
+        ]
+    },
+    "version": 3
+}
