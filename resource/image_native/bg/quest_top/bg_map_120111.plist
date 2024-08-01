@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>12011_cloud_00.png</key>
+			<dict>
+				<key>width</key>
+				<integer>1900</integer>
+				<key>height</key>
+				<integer>425</integer>
+				<key>originalWidth</key>
+				<integer>1905</integer>
+				<key>originalHeight</key>
+				<integer>594</integer>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>0</integer>
+				<key>offsetX</key>
+				<real>-2.5</real>
+				<key>offsetY</key>
+				<real>15.5</real>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>0</integer>
+			<key>textureFileName</key>
+			<string>bg_map_120111.png</string>
+			<key>realTextureFileName</key>
+			<string>bg_map_120111.png</string>
+			<key>size</key>
+			<string>{2048,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

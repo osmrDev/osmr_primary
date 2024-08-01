@@ -1,0 +1,167 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.5.0.1",
+      "version": 1.501,
+      "name": "4004_red_flame",
+      "bone_data": [
+        {
+          "name": "effect_flickering_02.plist",
+          "parent": "",
+          "dI": 0,
+          "x": 0.0,
+          "y": -310.0,
+          "z": 5,
+          "cX": 1.50000012,
+          "cY": 1.50000012,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "plist": "4004_red_flame_effect_flickering_02.plist",
+              "displayType": 2
+            }
+          ]
+        },
+        {
+          "name": "effect_flickering.plist_01",
+          "parent": "",
+          "dI": 0,
+          "x": 0.0,
+          "y": -120.0,
+          "z": 4,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "plist": "4004_red_flame_effect_flickering.plist",
+              "displayType": 2
+            }
+          ]
+        },
+        {
+          "name": "effect_sparks_basic_up.plist",
+          "parent": "",
+          "dI": 0,
+          "x": 0.0,
+          "y": -120.0,
+          "z": 3,
+          "cX": 1.1,
+          "cY": 1.1,
+          "kX": 0.0,
+          "kY": 0.0,
+          "arrow_x": 0.0,
+          "arrow_y": 0.0,
+          "effectbyskeleton": false,
+          "display_data": [
+            {
+              "plist": "4004_red_flame_effect_sparks_basic_up.plist",
+              "displayType": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "4004_red_flame",
+      "mov_data": [
+        {
+          "name": "action",
+          "dr": 1,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 1.0,
+          "mov_bone_data": [
+            {
+              "name": "effect_flickering_02.plist",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "effect_flickering.plist_01",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "effect_sparks_basic_up.plist",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 770,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [],
+  "config_file_path": [
+    "4004_red_flame_effect_flickering_02.plist",
+    "4004_red_flame_effect_flickering.plist",
+    "4004_red_flame_effect_sparks_basic_up.plist"
+  ],
+  "config_png_path": [
+    "4004_red_flame_effect_flickering_02.png",
+    "4004_red_flame_effect_flickering.png",
+    "4004_red_flame_effect_sparks_basic_up.png"
+  ]
+}
