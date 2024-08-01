@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>OSMR Game</title>
+      <link rel="icon" href="/favicon.ico">
+      <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <p id="JS_Chk">Javascript failed to load</p>
+        <!-- Magia ReRecord | Pre-Alpha 2 -->
+
+        <script>document.getElementById("JS_Chk").remove(); </script>
+
+        <script src="./assetManafest.js"></script>
+        <script src="./storyManafest.js"></script>
+        <script src="./settings.js"></script>
+
+        <!-- Libs -->
+        <script src="./Lib/Pixi/pixi.min.js"></script>
+        <script src="./Lib/Pixi/pixi-sound.js"></script>
+        <script src="./Lib/Live2D/live2dcubismcore.min.js"></script>
+        <script src="./Lib/Live2D/live2d.min.js"></script>
+        <script src="./Lib/Live2D/index.min.js"></script>
+        <script src="./Lib/Fontfaceobserver/fontfaceobserver.standalone.js"></script>
+
+        <!-- Main -->
+        <script src="./Main/initPixi.js"></script>
+        <script src="./Main/setLanguage.js"></script>
+        <script src="./Main/setAR.js"></script>
+        <script src="./Main/initL2d.js"></script>
+        <script src="./Main/loadFonts.js"></script>
+        <script src="./Main/onResize.js"></script>
+
+        <!-- Modules Common-->
+        <script src="./Modules_Common/objExist.js"></script>
+        <script src="./Modules_Common/rng.js"></script>
+        <script src="./Modules_Common/makeBg.js"></script>
+        <script src="./Modules_Common/placer.js"></script>
+        <script src="./Modules_Common/makeText.js"></script>
+        <script src="./Modules_Common/subTexSprite.js"></script>
+        <script src="./Modules_Common/cropFrame.js"></script>
+        <script src="./Modules_Common/l2dloader.js"></script>
+        <script src="./Modules_Common/clearLayer.js"></script>
+        <script src="./Modules_Common/soundPlayer.js"></script>
+
+        <!-- Modules -->
+        <script src="./Modules/StartScreen/startScreen.js"></script>
+
+        <script src="./Modules/HomeScreen/Homescreen.js"></script>
+        <script src="./Modules/HomeScreen/Homescreen_bg.js"></script>
+        <script src="./Modules/HomeScreen/HomeScreen_mainSel.js"></script>
+        <script src="./Modules/HomeScreen/HomeScreen_chara.js"></script>
+
+        <script src="./Modules/StoriesScreen/storiesScreen.js"></script>
+        <script src="./Modules/StoriesScreen/storiesScreen_selbar.js"></script>
+        <script src="./Modules/StoriesScreen/storiesScreen_listStory.js"></script>
+
+        <script src="./Modules/TeamSelScreen/teamSelScreen.js"></script>
+        <script src="./Modules/TeamSelScreen/teamSelScreen_Ui.js"></script>
+        <script src="./Modules/TeamSelScreen/teamSelScreen_deck.js"></script>
+        <script src="./Modules/TeamSelScreen/teamSelScreen_chooseChara.js"></script>
+
+        <script src="./Modules/BattleScreen/BattleScreen.js"></script>
+
+        <script src="./Modules/VnScreen/VnScreen.js"></script>
+        <script src="./Modules/VnScreen/VnScreen_bg.js"></script>
+        <script src="./Modules/VnScreen/VnScreen_parser.js"></script>
+        <script src="./Modules/VnScreen/VnScreen_dispItem.js"></script>
+        <script src="./Modules/VnScreen/vnScreen_narration.js"></script>
+        <script src="./Modules/VnScreen/vnScreen_textbox.js"></script>
+        <script src="./Modules/VnScreen/vnScreen_chara.js"></script>
+        <script src="./Modules/VnScreen/vnScreen_nonCharaAudio.js"></script>
+
+        <!-- start game -->
+        <script src="./Main/startGame.js"></script>
+
+    </body>
+
+</html>

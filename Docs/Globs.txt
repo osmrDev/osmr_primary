@@ -1,0 +1,6 @@
+Glob name :: Desc :: File Declared in
+
+GV_app :: const,  pixi application :: initPixi.js
+GV_lang :: string, the language to use :: SetLanguage.js
+
+Magnif :: float, magnification :: scaler
