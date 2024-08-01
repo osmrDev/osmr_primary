@@ -1,0 +1,46 @@
+{
+	"textureWidth":768,
+	"height":-70,
+	"modelScale":1.3,
+	"idleFace":
+	[
+		"",
+		""
+	],
+	"motionFace":
+	[
+		"mtn_ex_011.exp.json",
+		"",
+		"",
+		""
+	],
+	"charaName":"保澄 雫(シャドウ)",
+	"expressions": 
+	[
+        {
+			"name": "mtn_ex_100.exp.json",
+			"desc": "真剣(hiなし)"
+		},
+		{
+			"name": "mtn_ex_110.exp.json",
+			"desc": "微笑(hiなし)"
+		},
+		{
+			"name": "mtn_ex_120.exp.json",
+			"desc": "ムカッ(hiなし)"
+		},
+		{
+			"name": "mtn_ex_130.exp.json",
+			"desc": "悲哀(hiなし)"
+		},
+		{
+			"name": "mtn_ex_150.exp.json",
+			"desc": "驚き(hiなし)"
+		},
+		{
+			"name": "mtn_ex_160.exp.json",
+			"desc": "ダメージ(hiなし)"
+		}
+		
+	]
+}

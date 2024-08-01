@@ -1,0 +1,15 @@
+{
+	"type":"Live2D Expression",
+	"fade_in":0,
+	"fade_out":0,
+	"params":[
+		{"id":"PARAM_EYE_A_L_DISPLAY","val":1,"def":-1},
+		{"id":"PARAM_EYE_H_L_DISPLAY","val":1},
+		{"id":"PARAM_EYE_A_R_DISPLAY","val":1,"def":-1},
+		{"id":"PARAM_EYE_H_R_DISPLAY","val":1},
+		{"id":"PARAM_BROW_L_DISPLAY","val":1},
+		{"id":"PARAM_BROW_R_DISPLAY","val":1},
+		{"id":"PARAM_MOUTH_FORM","val":-0.5,"def":-1},
+		{"id":"PARAM_TEAR","val":1}
+	]
+}

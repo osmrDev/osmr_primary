@@ -1,0 +1,52 @@
+{
+  "spark_gear_data": [
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 1, 
+          "parent_bone": "vfx_01", 
+          "bone": "cardin_0", 
+          "name": "Gacha_ef07.vfxb"
+        }, 
+        {
+          "trigger": 2, 
+          "parent_bone": "vfx_03", 
+          "bone": "cardin_1", 
+          "name": "Gacha_ef07.vfxb"
+        }, 
+        {
+          "trigger": 3, 
+          "parent_bone": "vfx_02", 
+          "bone": "cardin_2", 
+          "name": "Gacha_ef07.vfxb"
+        }
+      ], 
+      "keyframe": "cardin"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 4, 
+          "parent_bone": "vfx_01", 
+          "bone": "cardout_0", 
+          "name": "Gacha_ef07.vfxb"
+        }, 
+        {
+          "trigger": 5, 
+          "parent_bone": "vfx_02", 
+          "bone": "cardout_1", 
+          "name": "Gacha_ef07.vfxb"
+        }, 
+        {
+          "trigger": 6, 
+          "parent_bone": "vfx_03", 
+          "bone": "cardout_2", 
+          "name": "Gacha_ef07.vfxb"
+        }
+      ], 
+      "keyframe": "cardout"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "expressions": [
+        {
+            "file": "exp/mtn_ex_000.exp.json", 
+            "name": "mtn_ex_000.exp.json"
+        }
+    ], 
+    "model": "model.moc", 
+    "motions": {
+        "motion": [
+            {
+                "file": "mtn/motion_000.mtn", 
+                "name": "motion_000"
+            }
+        ]
+    }, 
+    "name": "model", 
+    "textures": [
+        "model.2048/texture_00.png"
+    ], 
+    "version": "Sample 1.0.0"
+}

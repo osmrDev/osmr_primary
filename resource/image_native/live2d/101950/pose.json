@@ -1,0 +1,46 @@
+{
+	"type":"Live2D Pose",
+	"fade_in":200,
+	"parts_visible":[
+		{
+			"group":[
+				{
+					"id":"PARTS_01_ARM_R_A_00",
+					"link":[
+						"PARTS_50_ARM_R_A_50"
+					]
+				},
+				{
+					"id":"PARTS_01_ARM_R_B_00",
+					"link":[
+						"PARTS_50_ARM_R_B_50"
+					]
+				},
+				{
+					"id":"PARTS_01_ARM_R_C_00",
+					"link":[
+						"PARTS_50_ARM_R_C_50"
+					]
+				},
+				{"id":"PARTS_50_ARM_R_D_50"}
+			]
+		},
+		{
+			"group":[
+				{
+					"id":"PARTS_01_ARM_L_A_00",
+					"link":[
+						"PARTS_50_ARM_L_A_50"
+					]
+				},
+				{
+					"id":"PARTS_01_ARM_L_B_00",
+					"link":[
+						"PARTS_50_ARM_L_B_50"
+					]
+				},
+				{"id":"PARTS_50_ARM_L_D_50"}
+			]
+		}
+	]
+}

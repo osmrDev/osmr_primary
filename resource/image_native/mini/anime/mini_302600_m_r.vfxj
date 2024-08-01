@@ -1,0 +1,163 @@
+{
+  "spark_gear_data": [
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 3, 
+          "parent_bone": "ef_bone_front", 
+          "bone": "f03_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f03"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 4, 
+          "parent_bone": "ef_bone_rear", 
+          "bone": "f04_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f04"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 5, 
+          "parent_bone": "ef_weapon03", 
+          "bone": "f05_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f05"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 6, 
+          "parent_bone": "ef_weapon02", 
+          "bone": "f06_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f06"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 7, 
+          "parent_bone": "ef_weapon01", 
+          "bone": "f07_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f07"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 8, 
+          "parent_bone": "ef_weapon07", 
+          "bone": "f08_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f08"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 9, 
+          "parent_bone": "ef_weapon04", 
+          "bone": "f09_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f09"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 10, 
+          "parent_bone": "ef_weapon06", 
+          "bone": "f10_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f10"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 11, 
+          "parent_bone": "ef_weapon05", 
+          "bone": "f11_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f11"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 12, 
+          "parent_bone": "vfx_front", 
+          "bone": "f12_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f12"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 14, 
+          "parent_bone": "vfx_front", 
+          "bone": "f14_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f14"
+    }, 
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 18, 
+          "parent_bone": "vfx_front", 
+          "bone": "f18_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f18"
+    }, 
+    {
+      "movement_id_list": [
+        "eff"
+      ], 
+      "ef_list": [
+        {
+          "trigger": 19, 
+          "parent_bone": "vfx_front", 
+          "bone": "f19_0", 
+          "name": "mini_302600_m_r_ef00.vfxb"
+        }
+      ], 
+      "keyframe": "f19", 
+      "is_need_sd": false
+    }
+  ]
+}

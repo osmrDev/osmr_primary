@@ -1,0 +1,16 @@
+{
+  "spark_gear_data": [
+    {
+      "is_need_sd": true, 
+      "ef_list": [
+        {
+          "trigger": 1, 
+          "parent_bone": "vfx_01", 
+          "bone": "concentrated_0", 
+          "name": "Gacha_ef10.vfxb"
+        }
+      ], 
+      "keyframe": "concentrated"
+    }
+  ]
+}

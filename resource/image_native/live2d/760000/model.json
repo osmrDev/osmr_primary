@@ -1,0 +1,16 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"model.2048/texture_00.png"
+	],
+	"expressions":[
+		{"name":"mtn_ex_000.exp.json","file":"exp/mtn_ex_000.exp.json"}
+	],
+	"motions":{
+		"motion":[
+			{"name":"motion_000","file":"mtn/motion_000.mtn"}
+		]
+	},
+	"name":"model"
+}

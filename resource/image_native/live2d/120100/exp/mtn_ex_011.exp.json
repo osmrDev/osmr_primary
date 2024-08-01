@@ -1,0 +1,11 @@
+{
+	"type":"Live2D Expression",
+	"fade_in":0,
+	"fade_out":0,
+	"params":[
+		{"id":"PARAM_EYE_L_OPEN","val":0,"def":1},
+		{"id":"PARAM_EYE_L_SMILE","val":1},
+		{"id":"PARAM_EYE_R_OPEN","val":0,"def":1},
+		{"id":"PARAM_EYE_R_SMILE","val":1}
+	]
+}

@@ -1,0 +1,24 @@
+{
+    "gachaAnimation": {
+        "direction1": 1,
+        "direction2": 2,
+        "direction2AttributeId": "DARK",
+        "direction3": 2,
+        "gachaResultList": [
+           {
+                "type": "CARD",
+                "rarity": "RANK_2",
+                "maxRarity": "RANK_4",
+                "cardId": 30022,
+                "attributeId": "WATER",
+                "charaId": 3002,
+                "direction": 3,
+                "displayName": "空穂 夏希",
+                "isNew": true
+            }
+        ],
+        "live2dDetail": "1001120", 
+        "message": "全力で探るわよ、悶絶しても知らないから！",
+        "messageId": 2
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "gachaAnimation": {
+        "direction1": 1,
+        "direction2": 2,
+        "direction2AttributeId": "DARK",
+        "direction3": 2,
+        "gachaResultList": [
+            {
+                "type": "CARD",
+                "rarity": "RANK_2",
+                "maxRarity": "RANK_4",
+                "cardId": 30022,
+                "attributeId": "WATER",
+                "charaId": 3002,
+                "direction": 3,
+                "displayName": "空穂 夏希",
+                "isNew": true
+            },
+            {
+                "type": "CARD",
+                "rarity": "RANK_2",
+                "maxRarity": "RANK_4",
+                "cardId": 30302,
+                "attributeId": "TIMBER",
+                "charaId": 3030,
+                "direction": 3,
+                "displayName": "春名 このみ",
+                "isNew": true
+            },
+            {
+                "type": "PIECE",
+                "rarity": "RANK_2",
+                "pieceId": 22015,
+                "direction": 1,
+                "displayName": "心解ける枕",
+                "isNew": false
+            },
+            {
+                "type": "PIECE",
+                "rarity": "RANK_2",
+                "pieceId": 22004,
+                "direction": 1,
+                "displayName": "後悔だけはしない",
+                "isNew": true
+            },
+            {
+                "type": "CARD",
+                "rarity": "RANK_3",
+                "maxRarity": "RANK_4",
+                "cardId": 40013,
+                "attributeId": "LIGHT",
+                "charaId": 4001,
+                "direction": 4,
+                "displayName": "美国 織莉子",
+                "isNew": true
+            },
+            {
+                "type": "CARD",
+                "rarity": "RANK_2",
+                "maxRarity": "RANK_4",
+                "cardId": 30092,
+                "attributeId": "FIRE",
+                "charaId": 3009,
+                "direction": 3,
+                "displayName": "胡桃 まなか",
+                "isNew": true
+            },
+            {
+                "type": "PIECE",
+                "rarity": "RANK_2",
+                "pieceId": 22013,
+                "direction": 1,
+                "displayName": "私がナンバーワン！",
+                "isNew": true
+            },
+            {
+                "type": "PIECE",
+                "rarity": "RANK_3",
+                "pieceId": 13007,
+                "direction": 1,
+                "displayName": "Begin a Hunt",
+                "isNew": true
+            },
+            {
+                "type": "CARD",
+                "rarity": "RANK_3",
+                "maxRarity": "RANK_4",
+                "cardId": 10133,
+                "attributeId": "WATER",
+                "charaId": 1013,
+                "itemId": "LIMIT_BREAK_CHARA",
+                "direction": 4,
+                "displayName": "竜城 明日香",
+                "isNew": false
+            },
+            {
+                "type": "CARD",
+                "rarity": "RANK_2",
+                "maxRarity": "RANK_4",
+                "cardId": 10022,
+                "attributeId": "WATER",
+                "charaId": 1002,
+                "direction": 3,
+                "displayName": "七海 やちよ",
+                "isNew": true
+            }
+        ],
+        "live2dDetail": "1001120",
+        "message": "全力で探るわよ、悶絶しても知らないから！",
+        "messageId": 2
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"model.2048/texture_00.png"
+	],
+	"expressions":[
+		{"name":"mtn_ex_010.exp.json","file":"exp/mtn_ex_010.exp.json"},
+		{"name":"mtn_ex_011.exp.json","file":"exp/mtn_ex_011.exp.json"},
+		{"name":"mtn_ex_020.exp.json","file":"exp/mtn_ex_020.exp.json"},
+		{"name":"mtn_ex_030.exp.json","file":"exp/mtn_ex_030.exp.json"},
+		{"name":"mtn_ex_031.exp.json","file":"exp/mtn_ex_031.exp.json"},
+		{"name":"mtn_ex_041.exp.json","file":"exp/mtn_ex_041.exp.json"},
+		{"name":"mtn_ex_050.exp.json","file":"exp/mtn_ex_050.exp.json"},
+		{"name":"mtn_ex_060.exp.json","file":"exp/mtn_ex_060.exp.json"}
+	],
+	"motions":{
+		"motion":[
+			{"name":"motion_000","file":"mtn/motion_000.mtn"},
+			{"name":"motion_001","file":"mtn/motion_001.mtn"},
+			{"name":"motion_100","file":"mtn/motion_100.mtn"},
+			{"name":"motion_200","file":"mtn/motion_200.mtn"},
+			{"name":"motion_300","file":"mtn/motion_300.mtn"},
+			{"name":"motion_400","file":"mtn/motion_400.mtn"}
+		]
+	},
+	"physics":"physics.json",
+	"pose":"pose.json"
+}

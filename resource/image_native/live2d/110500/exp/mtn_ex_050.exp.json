@@ -1,0 +1,24 @@
+{
+	"type":"Live2D Expression",
+	"fade_in":0,
+	"fade_out":0,
+	"params":[
+		{"id":"PARAM_EYE_A_L_DISPLAY","val":1,"def":-1},
+		{"id":"PARAM_EYE_F_L_DISPLAY","val":1},
+		{"id":"PARAM_EYE_A_R_DISPLAY","val":1,"def":-1},
+		{"id":"PARAM_EYE_F_R_DISPLAY","val":1},
+		{"id":"PARAM_BROW_L_Y","val":-0.39},
+		{"id":"PARAM_BROW_R_Y","val":-0.43},
+		{"id":"PARAM_BROW_L_X","val":-0.48},
+		{"id":"PARAM_BROW_R_X","val":-0.22},
+		{"id":"PARAM_BROW_L_ANGLE","val":-0.22},
+		{"id":"PARAM_BROW_R_ANGLE","val":-0.22},
+		{"id":"PARAM_BROW_L_FORM","val":-1},
+		{"id":"PARAM_BROW_R_FORM","val":-1},
+		{"id":"PARAM_MOUTH_FORM","val":0,"def":-1},
+		{"id":"PARAM_MOUTH_DISPLAY","val":1},
+		{"id":"PARAM_MOUTH_DISPLAY02","val":1},
+		{"id":"PARAM_SWEAT","val":1},
+		{"id":"PARAM_NOSE","val":0,"def":1}
+	]
+}
