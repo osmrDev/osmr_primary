@@ -1,10 +1,8 @@
 
-var d
 
 function vnScreen_chara(currentScene) {
 
   var layer = GV_app.stage.getChildByName("charaLayer");
-  d = layer
   //check if current scene has chara
   if(!objExist(currentScene.chara)) return;
 
@@ -59,10 +57,10 @@ function vnScreen_chara(currentScene) {
     }
 
     if(objExist(currentCharaJsonDat.voiceFullStop)) {
-      stopSound(currentCharaJsonDat.voiceFullStop);
+      stopSound(""+currentCharaJsonDat.voiceFullStop);
     }
     if(objExist(currentCharaJsonDat.voiceFull)) {
-      playSound(ASSETS.questCharaVoice_path + currentCharaJsonDat.voiceFull +  "_hca.wav", currentCharaJsonDat.voiceFull);
+      talkl2d(""+currentCharaJsonDat.id, layer, ASSETS.questCharaVoice_path + currentCharaJsonDat.voiceFull +  "_hca.wav", ""+currentCharaJsonDat.voiceFull);
     }
 
     //TODO motions

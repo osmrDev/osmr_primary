@@ -3,6 +3,7 @@ async function makeL2D(id, path, layer, loction, offsetRight, offsetBtm, zoom) {
   let model = await PIXI.live2d.Live2DModel.from(path);
   model.talking = 0;
   model.name = id;
+  model.mouthValue = 0;
 
   //mouth movment
   model.internalModel.motionManager.update = (function() {
@@ -11,7 +12,9 @@ async function makeL2D(id, path, layer, loction, offsetRight, offsetBtm, zoom) {
     return function() {
         var result = cached_function.apply(this, arguments);
 
-        model.internalModel.coreModel.setParamFloat('PARAM_MOUTH_OPEN_Y', mouthValue*model.talking);
+        //model.internalModel.coreModel.setParamFloat('PARAM_MOUTH_OPEN_Y', mouthValue*model.talking);
+        model.internalModel.coreModel.setParamFloat('PARAM_MOUTH_OPEN_Y', model.mouthValue*model.talking);
+        console.log(model.mouthValue*model.talking)
 
         return result;
     };
@@ -37,7 +40,6 @@ async function l2dOnClick_recursive(modelName, layer, fn, timeout) {
 
   if(objExist(layer.getChildByName(modelName))) {
     //Code goes here
-    console.log("here")
     layer.getChildByName(modelName).interactive = true;
     layer.getChildByName(modelName).on('pointerdown', fn);
   }
@@ -71,6 +73,26 @@ async function movel2d_recursive(modelName, layer, location, offsetRight, offset
 
 }
 
+//------------------------------------------------------------------------------
+function talkl2d(modelName, layer, soundPath, name) {
+  talkl2d_recursive(modelName, layer, soundPath, name, L2dloader_timeoutCount);
+}
+async function talkl2d_recursive(modelName, layer, soundPath, name, timeout) {
+  //Timeout function to wait for obj to load
+  //Function may be called and object isnt loaded
+  if(timeout <= 0) return;
+  timeout--;
+
+  if(objExist(layer.getChildByName(modelName))) {
+    playSoundl2d(layer.getChildByName(modelName), soundPath, name)
+  }
+  else {
+    setTimeout(function (){
+      talkl2d_recursive(modelName, layer, soundPath, name, timeout)
+    }, L2dloader_timeoutInterval);
+  }
+
+}
 
 //------------------------------------------------------------------------------
 async function fadel2d(modelName, layer, startAlpha, endAlpha, time) {

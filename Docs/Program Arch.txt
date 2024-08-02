@@ -1,0 +1,73 @@
+--------------------------------------------------------------------------------
+                                  Preface
+
+Program architecture is relies on self contained modules or pages.
+
+All files are named after their primary function. (ie. startScreen.js contains the startScreen() function).
+
+Rendering is done using PIXI.js v7
+
+--------------------------------------------------------------------------------
+                                File Structure
+
+Docs           - documentation for program
+Fonts          - fonts
+Lib            - 3rd party libraries
+Main           - code that is executed on initialization
+Modules        - self contain pages
+Modules_Common - helper functions that are used by multiple modules
+resource       - Asset dump
+resource_conv  - Converted assets (ie. decrypted and reencoded audio files)
+
+--------------------------------------------------------------------------------
+                                   Modules
+
+Think of a module as a 'page' on a website.
+
+Each page should have an ingress function same as the page name.
+Example: vnScreen page should have an ingress function called vnScreen()
+Arguments to ingress function is ok.
+
+Each page should be self contained.
+This means no calling functions from other pages except for the ingress function
+Calling functions from helper functions is ok (helper functions in Moudles_Common)
+
+The ingress function does typically does 6 things:
+1. Clear the screen
+2. Create layers to draw on ( PIXI.Container() )
+3. Call functions (usually to draw on the layer and do other game stuff)
+4. Add the layer to the stage (GV_app.stage aka the renderer)
+5. Add aspect ratio crop box
+6. restart the game ticker (calling the clear screen helper stops the ticker)
+
+Your page can be started by any other page. (using the your page's ingress function)
+Your page can call any other page. (using the other page's ingress function)
+
+--------------------------------------------------------------------------------
+                                   Program flow
+
+On startup, index.html is loaded which will load all JS files. Any new JS files must be included in index.html
+
+Code in the 'Main' folder is executed this will setup the environment (fonts, renderer, params, etc).
+
+Once main is finished it opens the start screen page.
+
+The start screen page renders a basic background and click listener.
+Once clicked it redirects to the home screen.
+
+From there home screen will have buttons that redirect to other pages which may redirect to other pages
+
+--------------------------------------------------------------------------------
+                                Data mangement
+
+assetManafest.js, storyManafest.js, contains links to the resources folder.
+
+Pages should not use 'hard links' but instead use the links provided in the manafest folder.
+
+settings.js contains global variables for settings and parameters.
+Things like voulme, fade in/out timing, text color, character size, etc. should go in here
+
+--------------------------------------------------------------------------------
+                                 Game saves
+
+Game saves will use local storage api. (not yet implemented)

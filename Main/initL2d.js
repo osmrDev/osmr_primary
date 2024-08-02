@@ -1,6 +1,8 @@
 //For live2d mouth movments
-let RV_mouthValue = 0;
+let GlobMouthValue = 0;
+let Gspeed = 0;
 GV_app.ticker.add(() => {
   // mimic the interpolation value, 0-1
-  mouthValue = Math.sin(performance.now() / 80) / 2 + 0.5;
+  var speed = 2;
+  GlobMouthValue = Math.sin(performance.now() / 80 * Gspeed) / 2 + 0.5;
 });
