@@ -21,7 +21,6 @@ const GV_app = new PIXI.Application({
 
 
 document.body.appendChild(GV_app.view);
-console.log(window.innerWidth)
 
 var GV_ticker = new PIXI.Ticker();;
 function clearPixi() {

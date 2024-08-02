@@ -92,7 +92,6 @@ async function playSoundl2d(model, path, name) {
       if(percentPlayed > .98) {
         model.mouthValue = 0;
         model.talking = 0;
-        console.log("voice fin")
       }
   });
 

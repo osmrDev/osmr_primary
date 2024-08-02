@@ -26,3 +26,8 @@ var VnScreen_chara_height = 150;
 
 var L2dloader_timeoutCount = 100;
 var L2dloader_timeoutInterval = 30;
+
+var HomeScreen_FavChara = "100100" //100100 is iroha
+var HomeScreen_SubtitleColor = "#414141";
+var HomeScreen_SubtitleOutline = "#ffffff";
+var HomeScreen_SubtitleFontSize = 16;

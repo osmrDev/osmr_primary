@@ -14,7 +14,6 @@ async function makeL2D(id, path, layer, loction, offsetRight, offsetBtm, zoom) {
 
         //model.internalModel.coreModel.setParamFloat('PARAM_MOUTH_OPEN_Y', mouthValue*model.talking);
         model.internalModel.coreModel.setParamFloat('PARAM_MOUTH_OPEN_Y', model.mouthValue*model.talking);
-        console.log(model.mouthValue*model.talking)
 
         return result;
     };
@@ -95,7 +94,7 @@ async function talkl2d_recursive(modelName, layer, soundPath, name, timeout) {
 }
 
 //------------------------------------------------------------------------------
-async function fadel2d(modelName, layer, startAlpha, endAlpha, time) {
+function fadel2d(modelName, layer, startAlpha, endAlpha, time) {
   fadel2d_recursive(modelName, layer, startAlpha, endAlpha, time, L2dloader_timeoutCount)
 }
 async function fadel2d_recursive(modelName, layer, startAlpha, endAlpha, time, timeout) {
@@ -111,6 +110,30 @@ async function fadel2d_recursive(modelName, layer, startAlpha, endAlpha, time, t
   else {
     setTimeout(function (){
       fadel2d(modelName, layer, startAlpha, endAlpha, time)
+    }, L2dloader_timeoutInterval);
+  }
+
+}
+
+//------------------------------------------------------------------------------
+
+//GV_app.stage.getChildAt(2).getChildByName("favChara").motion("motion", 2, 100)
+function motionl2d(modelName, layer, action) {
+  motionl2d(modelName, layer, action, L2dloader_timeoutCount);
+}
+async function motionl2d(modelName, layer, action, timeout) {
+  //Timeout function to wait for obj to load
+  //Function may be called and object isnt loaded
+  if(timeout <= 0) return;
+  timeout--;
+
+  if(objExist(layer.getChildByName(modelName))) {
+    //Code goes here
+    layer.getChildByName(modelName).alpha = endAlpha;
+  }
+  else {
+    setTimeout(function (){
+      motionl2d(modelName, layer, action, timeout)
     }, L2dloader_timeoutInterval);
   }
 

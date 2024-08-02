@@ -4,6 +4,8 @@ const ASSETS = {
     web_0019:["resource/image_native/bg/web/web_0019.jpg"],
     icon_skill_1012:["resource/image_native/art/icon_skill_1012.png"],
 
+    chatterScriptPath:["resource/scenario/json/general/"],
+    chatterVoicePath:["resource_conv/sound_native/voice/"],
     //--------------------------------------------------------------------------
     //Animated BG
     //src, base width, base height, width, height, offset x, offset y

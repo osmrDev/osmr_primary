@@ -2,14 +2,22 @@ function dispHomeScreen() {
 
 
   clearPixi();
+
+  //old way of doing layers (dont do it like this)
   const bgLayer = dispHomeScreen_bg();
   const selMenuLayer = dispHomeScreen_mainSel();
-  const homescreenChara = dispHomeScreen_chara();
-
 
   GV_app.stage.addChild(bgLayer);
-  GV_app.stage.addChild(homescreenChara);
   GV_app.stage.addChild(selMenuLayer);
+
+
+  //new way of doing layers (do it this way)
+  //this way allows for async loading while keeping layers in order
+  const charaLayer = new PIXI.Container();
+  charaLayer.name = "charaLayer"
+  GV_app.stage.addChild(charaLayer);
+  
+  homeScreen_chara();
 
   cropFrame(AspectRatio);
 
