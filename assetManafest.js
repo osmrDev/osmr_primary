@@ -101,5 +101,31 @@ const ASSETS = {
 
     bg_quest_battle:["resource/image_web/page/quest/main/bg_quest_battle.png", 396, 88],
 
+    //--------------------------------------------------------------------------
+    //Battle
+    //src, base width, base height, width, height, offset x, offset y
+    minis_path:["resource/image_native/mini/image/"],
 
+    ui_command_12:["resource/package/quest/quest_image1.png",108,109,647,440], //pink atk disk with cutout
+    ui_command_13:["resource/package/quest/quest_image1.png",108,108,769,334], //blue atk disk with cutout
+    ui_command_14:["resource/package/quest/quest_image1.png",109,109,811,223], //yellow atk disk with cutout
+
+    connect_00:["resource/package/quest/quest_image0.png",37,58,828,856], //0 fill connect gem
+    connect_01:["resource/package/quest/quest_image0.png",37,58,876,802], //0 fill connect gem
+    connect_02:["resource/package/quest/quest_image0.png",37,58,901,420], //0 fill connect gem
+    connect_03:["resource/package/quest/quest_image0.png",37,58,909,560], //0 fill connect gem
+
+    ui_command_tx_01:["resource/package/quest/quest_image1.png",102,52,708,657], //blast h text
+    ui_command_tx_02:["resource/package/quest/quest_image1.png",101,53,812,657], //blast v text
+    ui_command_tx_03:["resource/package/quest/quest_image0.png",105,46,345,941], //accel text
+    ui_command_tx_04:["resource/package/quest/quest_image0.png",117,46,442,881], //charge text
+
+    ui_command_tx_05:["resource/package/quest/quest_image0.png",70,29,775,925], //magia text text
+
+    icon_dark:["resource/package/quest/quest_image0.png",26,26,879,381],
+    icon_fire:["resource/package/quest/quest_image0.png",26,26,849,381],
+    icon_green:["resource/package/quest/quest_image0.png",26,26,937,146], //LOL green
+    icon_light:["resource/package/quest/quest_image0.png",26,26,943,719],
+    icon_void:["resource/package/quest/quest_image0.png",26,26,943,749],
+    icon_water:["resource/package/quest/quest_image0.png",26,26,943,779],
   }

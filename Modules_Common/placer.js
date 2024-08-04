@@ -118,3 +118,65 @@ function layerScale(layer) {
   layer.x+=arvo*UiSize;
   layer.y+=arho*UiSize;
 }
+
+function layerPlace(obj, loction, offsetRight, offsetBtm, zoom) {
+
+  offsetRight *= PixelSize;
+  offsetBtm *= PixelSize;
+
+  console.log(offsetBtm)
+
+  obj.scale.set(PixelSize*zoom, PixelSize*zoom);
+
+  //aspect ratio height offset
+  //Without this, placer will place object at the top or bottom edge of screen
+  //Arho and Varho provides offset so that it places at edge of viewable area
+  //// TODO: move outside
+
+
+  switch(loction) {
+  case 1:
+    obj.position.set(0+offsetRight+arvo, 0+offsetBtm+arho);
+    break;
+  case 2:
+    offsetRight -= obj.width/2
+    obj.position.set(GV_app.screen.width/2+offsetRight, 0+offsetBtm+arho);
+    break;
+  case 3:
+    offsetRight -= obj.width
+    obj.position.set(GV_app.screen.width+offsetRight-arvo, 0+offsetBtm+arho);
+    break;
+  case 4:
+    offsetBtm -= obj.height/2
+    obj.position.set(0+offsetRight+arvo, GV_app.screen.height/2+offsetBtm);
+    break;
+  case 5:
+    offsetRight -= obj.width/2
+    offsetBtm -= obj.height/2
+    obj.position.set(GV_app.screen.width/2+offsetRight, GV_app.screen.height/2+offsetBtm);
+    break;
+  case 6:
+    offsetRight -= obj.width
+    offsetBtm -= obj.height/2
+    obj.position.set(GV_app.screen.width+offsetRight-arvo, GV_app.screen.height/2+offsetBtm);
+    break;
+  case 7:
+    offsetBtm -= obj.height
+    obj.position.set(0+offsetRight+arvo, GV_app.screen.height+offsetBtm-arho);
+    break;
+  case 8:
+    offsetRight -= obj.width/2
+    offsetBtm -= obj.height
+    obj.position.set(GV_app.screen.width/2+offsetRight, (GV_app.screen.height+offsetBtm-arho));
+    break;
+  case 9:
+    obj.pivot.set(obj.width, obj.height);
+    offsetRight -= obj.width
+    offsetBtm -= obj.height
+    obj.position.set(GV_app.screen.width+offsetRight-arvo, GV_app.screen.height+offsetBtm-arho);
+    break;
+  default: console.log("error: invalid obj place location"); break;
+  }
+
+  return obj;
+}

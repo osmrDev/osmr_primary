@@ -27,6 +27,12 @@ function dispHomeScreen_mainSel(){
   });
 
   var mirror = ezPlaceUI(layer, ASSETS.global_battle, 9, -245, 0, .5);
+  mirror.interactive = true
+  mirror.cursor = 'pointer';
+  mirror.on('pointerdown', function() {
+    battleScreen()
+    stopSound("HsChatter")
+  })
 
   var team = ezPlaceUI(layer, ASSETS.global_team, 9, -220, -185, .5);
   team.interactive = true

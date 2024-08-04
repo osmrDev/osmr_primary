@@ -31,3 +31,6 @@ var HomeScreen_FavChara = "100100" //100100 is iroha
 var HomeScreen_SubtitleColor = "#414141";
 var HomeScreen_SubtitleOutline = "#ffffff";
 var HomeScreen_SubtitleFontSize = 16;
+
+var BattleScreen_Disk_DropHitSize = 50;
+var BattleScreen_Disk_MaxDiskSelect = 3;
