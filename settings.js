@@ -34,3 +34,5 @@ var HomeScreen_SubtitleFontSize = 16;
 
 var BattleScreen_Disk_DropHitSize = 50;
 var BattleScreen_Disk_MaxDiskSelect = 3;
+var BattleScreen_Disk_DiskPoolSize = 5; 
+var BattleScreen_Disk_DiskSpacing = 125;

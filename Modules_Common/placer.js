@@ -124,8 +124,6 @@ function layerPlace(obj, loction, offsetRight, offsetBtm, zoom) {
   offsetRight *= PixelSize;
   offsetBtm *= PixelSize;
 
-  console.log(offsetBtm)
-
   obj.scale.set(PixelSize*zoom, PixelSize*zoom);
 
   //aspect ratio height offset

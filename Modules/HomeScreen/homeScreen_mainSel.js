@@ -29,7 +29,7 @@ function dispHomeScreen_mainSel(){
   var mirror = ezPlaceUI(layer, ASSETS.global_battle, 9, -245, 0, .5);
   mirror.interactive = true
   mirror.cursor = 'pointer';
-  mirror.on('pointerdown', function() {
+  mirror.on('pointerup', function() {
     battleScreen()
     stopSound("HsChatter")
   })

@@ -1,8 +1,35 @@
+var v;
+function battleScreen_genDisk() {
 
-function battleScreen_disk() {
+  var layer = GV_app.stage.getChildByName("diskLayer");
 
+  //Fill selection pool
+  var avaliableDisk = [];
+  var activeTeam = SAVEGAME.teamlist[SAVEGAME.active_team];
+  for(var i = 0; i < activeTeam.length; i++) {
+    var chara = getMyChara(activeTeam[i].charaID);
+    for(var j = 0; j < chara.disk.length; j++) {
+      avaliableDisk.push({cid:chara.charaID,diskType:chara.disk[j]});
+    }
+  }
 
+  //console.log(diskPool)
 
+  //make disks
+  for(var i = 0; i < BattleScreen_Disk_DiskPoolSize; i++) {
+
+    //choose random disk
+    var randomDiskIdx = rng(0, avaliableDisk.length-1);
+    var randomDisk = avaliableDisk[randomDiskIdx];
+    avaliableDisk.splice(randomDiskIdx, 1);
+
+    //select disk
+    var d = battleScreen_disk_mkdsk(randomDisk.cid, randomDisk.diskType)
+
+    //place disk
+    layerPlace(d, 8, -(2*BattleScreen_Disk_DiskSpacing)+i*BattleScreen_Disk_DiskSpacing ,0 ,1)
+    layer.addChild(d)
+  }
 
 
 }
@@ -13,9 +40,38 @@ function p() {
   GV_app.stage.addChild(d)
 }
 
-
+//when the number of required (3) disks are selected
 function battleScreen_disk_onMaxDiskSelect() {
 
+  var layer = GV_app.stage.getChildByName("diskLayer");
+
+  var blastSel = 0;
+  var acceleSel = 0;
+  var chargeSel = 0;
+
+  var lastChara = null; //used for dertimining Puella combo
+
+  //distrubute combos and magia gems
+  for(var i = 0; i < layer.children.length; i++) {
+    var disk = layer.children[i];
+    if(disk.isSelected) getMyChara(disk.charaID).connect++
+    if(disk.type == "blast_h" || disk.type == "blast_v") blastSel++;
+    else if(disk.type == "accele") acceleSel++;
+    else if(disk.type == "charge") chargeSel++;
+
+    if(lastChara == null) lastChara = disk.charaID;
+    if(lastChara != disk.charaID) lastChara == "noCombo"
+  }
+
+  if(lastChara != "noCombo") alert("pulla combo")
+
+  //clear disks
+  clearLayer(layer);
+
+
+
+  //do battle
+  battleScreen_genDisk() // temp
 }
 
 
@@ -51,7 +107,7 @@ function battleScreen_disk_mkdsk(charaID, type) {
     diskBg = makeSubTexSprite(ASSETS.ui_command_12)
     diskText = makeSubTexSprite(ASSETS.ui_command_tx_02)
   }
-  else if(type == "magia") {
+  else if(type == "accele") {
     diskBg = makeSubTexSprite(ASSETS.ui_command_13)
     diskText = makeSubTexSprite(ASSETS.ui_command_tx_03)
   }
@@ -104,18 +160,29 @@ function battleScreen_disk_mkdsk(charaID, type) {
   disk.isSelected = false;
   disk.connectCharacter = null;
   disk.type = type;
+  disk.charaID = charaID;
+
+  var layer = GV_app.stage.getChildByName("diskLayer");
 
   disk.on('pointerdown', function() {
 
     disk.originalX = disk.x;
     disk.originalY = disk.y;
     disk.on('pointermove', function(e) {
+
+        //make all other disk uninteractive to stop bug from overlaping disks causes wrong interaction
+        for(var i = 0; i < layer.children.length; i++) {
+          if(layer.children[i] != disk) layer.children[i].interactive = false;
+        }
+
         disk.x = e.global.x - disk.width/2; //make disk follow pointer (offset to make it center)
         disk.y = e.global.y - disk.width/2; //disk.width is intentional, looks more centered
     });
   });
   disk.on('pointerup', function() {
     disk.off('pointermove') //stop disk from following pointer
+
+    for(var i = 0; i < layer.children.length; i++) layer.children[i].interactive = true; //renable interaction
 
     //if disk was dragged do connect get chara that is in drop range
     if(disk.originalX != disk.x && disk.originalY != disk.y) {
@@ -156,7 +223,10 @@ function battleScreen_disk_mkdsk(charaID, type) {
 
         disk.isSelected = true;
         Temp_SelectedDiskCount++;
-        if(Temp_SelectedDiskCount == BattleScreen_Disk_MaxDiskSelect) battleScreen_disk_onMaxDiskSelect();
+        if(Temp_SelectedDiskCount == BattleScreen_Disk_MaxDiskSelect) {
+          Temp_SelectedDiskCount = 0;
+          battleScreen_disk_onMaxDiskSelect();
+        }
         for(var j = 0; j < disk.children.length; j++) {disk.children[j].tint = 0x999999;} //tint disk
       }
     }

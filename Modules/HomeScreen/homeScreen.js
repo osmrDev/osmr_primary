@@ -8,7 +8,7 @@ function dispHomeScreen() {
   const selMenuLayer = dispHomeScreen_mainSel();
 
   GV_app.stage.addChild(bgLayer);
-  GV_app.stage.addChild(selMenuLayer);
+
 
 
   //new way of doing layers (do it this way)
@@ -16,8 +16,11 @@ function dispHomeScreen() {
   const charaLayer = new PIXI.Container();
   charaLayer.name = "charaLayer"
   GV_app.stage.addChild(charaLayer);
-  
+
+  GV_app.stage.addChild(selMenuLayer);
+
   homeScreen_chara();
+
 
   cropFrame(AspectRatio);
 
