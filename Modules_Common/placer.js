@@ -92,6 +92,17 @@ function ezPlaceGraphics(parent, gra, loction, offsetRight, offsetBtm, zoom) {
   return sobj;
 }
 
+function ezPlaceCropped(parent, asset, loction, offsetRight, offsetBtm, zoom) {
+  var renderTexture = PIXI.Texture.from(asset[0])
+  subTexture = new PIXI.Texture(renderTexture, new PIXI.Rectangle(asset[3], asset[4], asset[1], asset[2]))
+  var sobj = new PIXI.Sprite(subTexture);
+
+  placer(sobj, loction, offsetRight, offsetBtm, zoom);
+
+  parent.addChild(sobj)
+  return sobj;
+}
+
 function ezPlaceUI(parent, asset, loction, offsetRight, offsetBtm, zoom) {
 
   zoom*=UiSize;

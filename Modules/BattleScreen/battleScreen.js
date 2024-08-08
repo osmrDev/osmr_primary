@@ -4,6 +4,10 @@ function battleScreen() {
 
   clearPixi();
 
+  const bg = new PIXI.Container();
+  bg.name = "bg"
+  GV_app.stage.addChild(bg);
+
   const myCharaLayer = new PIXI.Container();
   myCharaLayer.name = "myCharaLayer"
   GV_app.stage.addChild(myCharaLayer);
@@ -19,6 +23,7 @@ function battleScreen() {
   const diskLayer = new PIXI.Container();
   diskLayer.name = "diskLayer"
   GV_app.stage.addChild(diskLayer);
+
 
   battleScreen_startMission(); //temp
 

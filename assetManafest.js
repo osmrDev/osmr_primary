@@ -106,6 +106,9 @@ const ASSETS = {
     //src, base width, base height, width, height, offset x, offset y
     minis_path:["resource/image_native/mini/image/"],
 
+    magicsqbase:["resource/package/quest/quest_image0.png",524,236,1,103],
+    magicsqunit1:["resource/package/quest/quest_image0.png",160,56,569,495],
+
     ui_command_12:["resource/package/quest/quest_image1.png",108,109,647,440], //pink atk disk with cutout
     ui_command_13:["resource/package/quest/quest_image1.png",108,108,769,334], //blue atk disk with cutout
     ui_command_14:["resource/package/quest/quest_image1.png",109,109,811,223], //yellow atk disk with cutout
