@@ -5,6 +5,9 @@ async function makeL2D(id, path, layer, loction, offsetRight, offsetBtm, zoom) {
   model.name = id;
   model.mouthValue = 0;
 
+  if(path.includes("model3")) model.model3 = true;
+  else model.model3 = false;
+
   //mouth movment
   model.internalModel.motionManager.update = (function() {
     var cached_function = model.internalModel.motionManager.update;
@@ -13,7 +16,9 @@ async function makeL2D(id, path, layer, loction, offsetRight, offsetBtm, zoom) {
         var result = cached_function.apply(this, arguments);
 
         //model.internalModel.coreModel.setParamFloat('PARAM_MOUTH_OPEN_Y', mouthValue*model.talking);
-        model.internalModel.coreModel.setParamFloat('PARAM_MOUTH_OPEN_Y', model.mouthValue*model.talking);
+        //model.internalModel.coreModel.setParamFloat('PARAM_MOUTH_OPEN_Y', model.mouthValue*model.talking);
+        if(model.model3) model.internalModel.coreModel.setParameterValueById("ParamMouthOpenY", model.mouthValue*model.talking)
+        else model.internalModel.coreModel.setParamFloat('PARAM_MOUTH_OPEN_Y', model.mouthValue*model.talking);
 
         return result;
     };
