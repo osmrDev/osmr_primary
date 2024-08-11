@@ -1,28 +1,34 @@
+var GV_app;
+var GV_ticker;
+
+function initPixii() {
+  //Alert if pixi dosnt load
+  try {
+    console.log("Running PIXI " + PIXI.VERSION);
+  } catch (e) {
+    alert("PIXI failed to load");
+  }
+
+  //Alert if WebGL is not supported
+  if(PIXI.utils.isWebGLSupported() == false) {
+    alert("WebGL is not supported");
+  }
+
+  //Create Pixi window
+  GV_app = new PIXI.Application({
+    resizeTo: window,
+  	autoResize: true,
+    resolution: devicePixelRatio,
+    view: document.getElementById("gameCanvas")
+  });
 
 
-//Alert if pixi dosnt load
-try {
-  console.log("Running PIXI " + PIXI.VERSION);
-} catch (e) {
-  alert("PIXI failed to load");
+  document.body.appendChild(GV_app.view);
+
+  GV_ticker = new PIXI.Ticker();;
+  clearPixi();
 }
 
-//Alert if WebGL is not supported
-if(PIXI.utils.isWebGLSupported() == false) {
-  alert("WebGL is not supported");
-}
-
-//Create Pixi window
-const GV_app = new PIXI.Application({
-  resizeTo: window,
-	autoResize: true,
-  resolution: devicePixelRatio
-});
-
-
-document.body.appendChild(GV_app.view);
-
-var GV_ticker = new PIXI.Ticker();;
 function clearPixi() {
 
   GV_ticker.destroy();
@@ -43,4 +49,3 @@ function clearPixi() {
   GV_app.stage.addChild(loadingtext);
 
 }
-clearPixi();
