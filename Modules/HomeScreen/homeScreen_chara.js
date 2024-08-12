@@ -9,6 +9,12 @@ async function homeScreen_chara(){
 
   //queue live2d model (will load async)
   var charaPath = ASSETS.l2d_path + HomeScreen_FavChara + "/model.json"
+
+  //check if path exists if dosnt exist assume it is model3
+  if(!pathExist(charaPath)) {
+    charaPath = ASSETS.l2d_path + HomeScreen_FavChara + "/model.model3.json"
+  }
+
   makeL2D("favChara", charaPath, layer, 5, -150, 150, .28);
 
   //apply on click function to l2d model

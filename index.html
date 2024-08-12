@@ -6,8 +6,14 @@
       <link rel="stylesheet" href="index.css">
     </head>
     <body>
+      <canvas id="gameCanvas" width="192" height="108" class="gameCanvas"></canvas>
+
         <p id="JS_Chk">Javascript not loaded. Check if JS is enabled or try wating a while...</p>
         <!-- Magia ReRecord | Pre-Alpha 2 -->
+
+        <div id="InitialLoadingScreen">
+          <p> Game is loading... </p>
+        </div>
 
         <script>document.getElementById("JS_Chk").remove(); </script>
 
@@ -21,6 +27,7 @@
         <script src="./Lib/Live2D/live2dcubismcore.min.js"></script>
         <script src="./Lib/Live2D/live2d.min.js"></script>
         <script src="./Lib/Live2D/index.min.js"></script>
+        <script src="./Lib/cocos2d-html5/CCBoot.js"></script>
         <script src="./Lib/Fontfaceobserver/fontfaceobserver.standalone.js"></script>
 
         <!-- Main -->
@@ -66,6 +73,7 @@
         <script src="./Modules/BattleScreen/battleScreen_genDisk.js"></script>
         <script src="./Modules/BattleScreen/battleScreen_minis.js"></script>
         <script src="./Modules/BattleScreen/battleScreen_startMission.js"></script>
+        <script src="./Modules/BattleScreen/battleScreen_tileHighlight.js"></script>
 
         <script src="./Modules/VnScreen/vnScreen.js"></script>
         <script src="./Modules/VnScreen/vnScreen_bg.js"></script>

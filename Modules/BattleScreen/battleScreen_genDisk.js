@@ -24,20 +24,16 @@ function battleScreen_genDisk() {
     avaliableDisk.splice(randomDiskIdx, 1);
 
     //select disk
-    var d = battleScreen_disk_mkdsk(randomDisk.cid, randomDisk.diskType)
+    var disk = battleScreen_disk_mkdsk(randomDisk.cid, randomDisk.diskType)
 
     //place disk
-    layerPlace(d, 8, -(2*BattleScreen_Disk_DiskSpacing*UiSize)+i*BattleScreen_Disk_DiskSpacing*UiSize ,0,UiSize)
-    layer.addChild(d)
+    layerPlace(disk, 8, -(2*BattleScreen_Disk_DiskSpacing*UiSize)+i*BattleScreen_Disk_DiskSpacing*UiSize ,0,UiSize)
+    disk.originalX = disk.x;
+    disk.originalY = disk.y;
+    layer.addChild(disk)
   }
 
 
-}
-
-function p() {
-  var d = battleScreen_disk_mkdsk("100100", "charge")
-  layerPlace(d, 8, 0 ,0 ,1)
-  GV_app.stage.addChild(d)
 }
 
 //when the number of required (3) disks are selected
@@ -161,15 +157,26 @@ function battleScreen_disk_mkdsk(charaID, type) {
   disk.connectCharacter = null;
   disk.type = type;
   disk.charaID = charaID;
+  disk.deadZone = true;
+  disk.originalX = null;
+  disk.originalY = null;
 
   var layer = GV_app.stage.getChildByName("diskLayer");
 
+
+
   disk.on('pointerdown', function() {
 
-    disk.originalX = disk.x;
-    disk.originalY = disk.y;
+
+    disk.deadZone = true
+
     disk.on('pointermove', function(e) {
 
+      setTimeout(function (){
+        disk.deadZone = false;
+      }, BattleScreen_Disk_MoveDeadzone);
+
+      if(!disk.deadZone) {
         //make all other disk uninteractive to stop bug from overlaping disks causes wrong interaction
         for(var i = 0; i < layer.children.length; i++) {
           if(layer.children[i] != disk) layer.children[i].interactive = false;
@@ -177,6 +184,7 @@ function battleScreen_disk_mkdsk(charaID, type) {
 
         disk.x = e.global.x - disk.width/2; //make disk follow pointer (offset to make it center)
         disk.y = e.global.y - disk.width/2; //disk.width is intentional, looks more centered
+      }
     });
   });
   disk.on('pointerup', function() {
@@ -232,6 +240,13 @@ function battleScreen_disk_mkdsk(charaID, type) {
     }
 
   });
+
+  disk.on('pointerleave', function() {
+    disk.off('pointermove')
+    disk.x = disk.originalX;
+    disk.y = disk.originalY;
+  });
+
 
   return disk;
 }

@@ -87,6 +87,7 @@ const ASSETS = {
     //L2D model
     //path, id
     l2d_path:["resource/image_native/live2d/"],
+    l2d_path_alt:["resource_conv/image_native/live2d/"],
     enemySprite_path:["resource/image_native/enemy_w/"],
     l2d_iroha:["resource/image_native/live2d/100100/model.json", 100100],
 

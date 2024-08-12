@@ -13,21 +13,32 @@ function battleScreen_updateTeamMinis() {
 
     var offset = 0;
 
-    if(chara.position >= 1 && chara.position <= 3) ;
+    battleScreen_highlightTile(chara.pos);
 
-    var a = ezPlaceCropped(layer, ASSETS.magicsqunit1, 5, 75, 0, 1)
+    //draw chara hitbox
 
 
-    var colorMatrix =  [
-      1, 0, 0, 0, 0.9,
-      0, 1, 0, 0, 0.9,
-      0, 0, 1, 0, 0.9,
-      0, 0, 0, 1, 0
-  ];
-  var filter = new PIXI.ColorMatrixFilter();
-  //filter.matrix = colorMatrix;
-  //filter.lsd = true
-  a.filters = [filter];
+
   }
 
+
+}
+
+function t() {
+  var current_chara = "100100"
+  cc.loader.load([
+                  //chara_bg
+                    "./image/package/bg/web_common.ExportJson",
+                    "./image/package/bg/web_common_petal_00.plist",
+                    "./image/package/bg/web_common_petal_01.plist",
+                    "./image/package/bg/web_common_petal_02.plist",
+                    "./image/package/bg/web_common0.plist",
+                     //mini down
+                     "./image/package/web/web_ef_unit_marker/web_ef_unit_marker.ExportJson",
+                     "./image/package/web/web_ef_unit_marker/web_ef_unit_marker0.plist",
+            "./image/image_native/mini/anime_v2/mini_"+current_chara+"00_r.ExportJson",
+            "./image/image_native/mini/anime_v2/mini_"+current_chara+"00_r0.plist",
+        ], function () {
+                    cc.director.runScene(new charaScene());
+                }, this);
 }
