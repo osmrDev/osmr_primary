@@ -1,5 +1,17 @@
 async function makeL2D(id, path, layer, loction, offsetRight, offsetBtm, zoom) {
 
+  //Check if file is converted
+  console.log(path-"model.json")
+  var basePath = path.substring(0, path.length - 10);
+  console.log(basePath)
+  //If file dosnt exist then check in resoruce_conv folder
+  if(!pathExist(basePath + "model.1024/texture_00.png") && !pathExist(basePath + "model.2048/texture_00.png")) {
+    path = path.substring(ASSETS.l2d_path[0].length, path.length);
+    path = ASSETS.l2d_path_alt + path;
+    console.log(path)
+  }
+
+  //make model
   let model = await PIXI.live2d.Live2DModel.from(path);
   model.talking = 0;
   model.name = id;
@@ -7,6 +19,7 @@ async function makeL2D(id, path, layer, loction, offsetRight, offsetBtm, zoom) {
 
   if(path.includes("model3")) model.model3 = true;
   else model.model3 = false;
+
 
   //mouth movment
   model.internalModel.motionManager.update = (function() {
