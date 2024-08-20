@@ -19,14 +19,15 @@ function initPixii() {
     resizeTo: window,
   	autoResize: true,
     resolution: devicePixelRatio,
-    view: document.getElementById("gameCanvas")
+    view: document.getElementById("pixiCanvas"),
+    BackgroundAlpha: 0
   });
 
 
   document.body.appendChild(GV_app.view);
-
+  GV_app.renderer.background.alpha = 0.5;
   GV_ticker = new PIXI.Ticker();;
-  clearPixi();
+  //clearPixi();
 }
 
 function clearPixi() {

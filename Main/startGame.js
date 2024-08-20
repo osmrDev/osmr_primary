@@ -7,13 +7,15 @@ function loadChk() {
 
 
 document.getElementById("gameCanvas").style.display = "none" //hide canvas while things load so you see default loading screen
+document.getElementById("pixiCanvas").style.display = "none" //hide canvas while things load so you see default loading screen
+document.getElementById("pixiCanvas2").style.display = "none" //hide canvas while things load so you see default loading screen
 function startGame() {
 
   cc.game.onStart = function() {
     initPixii();
     startScreen();
     document.getElementById("InitialLoadingScreen").remove(); //get rid of loading screen
-    document.getElementById("gameCanvas").style.display = "block" //show canvas
+    document.getElementById("pixiCanvas").style.display = "block" //show canvas
   }
 
   cc.game.run();

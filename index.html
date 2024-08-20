@@ -6,7 +6,19 @@
       <link rel="stylesheet" href="index.css">
     </head>
     <body>
-      <canvas id="gameCanvas" width="192" height="108" class="gameCanvas"></canvas>
+      <!--<canvas id="a" width="1920" height="1080" style="outline:none;width:100%;height:100%;"
+              class="a" tabindex="99"></canvas>
+      <canvas id="p" width="1920" height="1080" style="outline:none;width:100%;height:100%;"
+              class="a" tabindex="99"></canvas>-->
+      <canvas id="pixiCanvas" width="200" height="250" style="position:absolute;top:0px;left:0px;z-index:0"
+              class="pixiCanvas" tabindex="99"></canvas>
+      <div style="position:absolute;top:0px;left:0px;z-index:2">
+        <canvas id="gameCanvas" width="200" height="250" style=""
+                class="gameCanvas" tabindex="99"></canvas>
+      </div>
+      <canvas id="pixiCanvas2" width="200" height="250" style=""
+              class="pixiCanvas2" tabindex="99"></canvas>
+
 
         <p id="JS_Chk">Javascript not loaded. Check if JS is enabled or try wating a while...</p>
         <!-- Magia ReRecord | Pre-Alpha 2 -->
@@ -50,7 +62,7 @@
         <script src="./Modules_Common/clearLayer.js"></script>
         <script src="./Modules_Common/soundPlayer.js"></script>
         <script src="./Modules_Common/getChara.js"></script>
-
+        <script src="./Modules_Common/minisloader.js"></script>
         <!-- Modules -->
         <script src="./Modules/StartScreen/startScreen.js"></script>
 
