@@ -20,6 +20,10 @@ function battleScreen() {
   enemyMinis.name = "enemyMinis"
   GV_app.stage.addChild(enemyMinis);
 
+  const hpInfoLayer = new PIXI.Container();
+  enemyMinis.name = "hpInfoLayer"
+  GV_app.stage.addChild(enemyMinis);
+
   const diskLayer = new PIXI.Container();
   diskLayer.name = "diskLayer"
   GV_app.stage.addChild(diskLayer);
