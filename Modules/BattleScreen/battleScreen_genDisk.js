@@ -59,7 +59,7 @@ function battleScreen_disk_onMaxDiskSelect() {
     if(lastChara != disk.charaID) lastChara == "noCombo"
   }
 
-  if(lastChara != "noCombo") alert("pulla combo")
+  if(lastChara != "noCombo") alert("Puella Combo")
 
   //clear disks
   clearLayer(layer);

@@ -38,6 +38,11 @@ function battleScreen_updateTeamMinis() {
     charSp.interactive = true
     charSp.cursor = 'pointer';
 
+    //draw chara debug info
+    var txt = makeText("CID:" + chara.charaID, 12);
+    txt.anchor.set(0.5,0.5)
+    charSp.addChild(txt);
+
     //draw chara hpinfo
     battleScreen_addHpInfo(chara, hbxLoc, hbyLoc);
 
