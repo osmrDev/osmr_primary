@@ -6,3 +6,17 @@ function getMyChara(name) {
   }
   return null;
 }
+
+//add character from character manafest to unlocked chara list
+function unlockChara() {
+  //TODO
+}
+
+//Get character's position on battle grid
+//returns null if not onfield
+function getCharaGridPos(charaID) {
+  for(var i = 0; i < SAVEGAME.teamlist[SAVEGAME.active_team].length; i++) {
+    if(SAVEGAME.teamlist[SAVEGAME.active_team][i].charaID == charaID) return SAVEGAME.teamlist[SAVEGAME.active_team][i].pos
+  }
+  return null;
+}

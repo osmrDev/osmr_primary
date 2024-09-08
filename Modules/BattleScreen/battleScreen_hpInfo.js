@@ -2,6 +2,21 @@
 
 function battleScreen_addHpInfo(chara, hbxLoc, hbyLoc) {
   var layer = GV_app.stage.getChildByName("hpInfoLayer");
+  var pos = getCharaGridPos(chara.charaID);
+
+  //positionOffset
+  var hbxLoc;
+  var hbyLoc;
+  if(pos == 1) {hbxLoc = 83,         hbyLoc = -4}
+  if(pos == 2) {hbxLoc = 83+135,     hbyLoc = -5}
+  if(pos == 3) {hbxLoc = 83+135*2-1, hbyLoc = -6}
+  if(pos == 4) {hbxLoc = 121,        hbyLoc = -5+56}
+  if(pos == 5) {hbxLoc = 122+135,    hbyLoc = -5.75+56}
+  if(pos == 6) {hbxLoc = 122+135*2,  hbyLoc = -6.5+56}
+  if(pos == 7) {hbxLoc = 160,        hbyLoc = -5+112}
+  if(pos == 8) {hbxLoc = 162+135,    hbyLoc = -5+112}
+  if(pos == 9) {hbxLoc = 162+135*2,  hbyLoc = -5+111}
+
 
   var size = BattleScreen_hpInfo_charaHPinfoSize;
   var poffset = BattleScreen_hpInfo_charaHPinfoHeight;
@@ -14,10 +29,10 @@ function battleScreen_addHpInfo(chara, hbxLoc, hbyLoc) {
   var element;
   if(chara.element == "light") ezPlaceCropped(layer, ASSETS.icon_light, 5, hbxLoc-57*size, hbyLoc-BattleScreen_Minis_hitboxHeight*poffset-40*size, 1.98*size)
   else if(chara.element == "dark") ezPlaceCropped(layer, ASSETS.icon_dark, 5, hbxLoc-57*size, hbyLoc-BattleScreen_Minis_hitboxHeight*poffset-40*size, 1.98*size)
-  else if(chara.element == "forest") ezPlaceCropped(layer, ASSETS.icon_dark, 5, hbxLoc-57*size, hbyLoc-BattleScreen_Minis_hitboxHeight*poffset-40*size, 1.98*size)
-  else if(chara.element == "fire") ezPlaceCropped(layer, ASSETS.icon_dark, 5, hbxLoc-57*size, hbyLoc-BattleScreen_Minis_hitboxHeight*poffset-40*size, 1.98*size)
-  else if(chara.element == "water") ezPlaceCropped(layer, ASSETS.icon_dark, 5, hbxLoc-57*size, hbyLoc-BattleScreen_Minis_hitboxHeight*poffset-40*size, 1.98*size)
-  else if(chara.element == "void") ezPlaceCropped(layer, ASSETS.icon_dark, 5, hbxLoc-57*size, hbyLoc-BattleScreen_Minis_hitboxHeight*poffset-40*size, 1.98*size)
+  else if(chara.element == "forest") ezPlaceCropped(layer, ASSETS.icon_geen, 5, hbxLoc-57*size, hbyLoc-BattleScreen_Minis_hitboxHeight*poffset-40*size, 1.98*size)
+  else if(chara.element == "fire") ezPlaceCropped(layer, ASSETS.icon_fire, 5, hbxLoc-57*size, hbyLoc-BattleScreen_Minis_hitboxHeight*poffset-40*size, 1.98*size)
+  else if(chara.element == "water") ezPlaceCropped(layer, ASSETS.icon_water, 5, hbxLoc-57*size, hbyLoc-BattleScreen_Minis_hitboxHeight*poffset-40*size, 1.98*size)
+  else if(chara.element == "void") ezPlaceCropped(layer, ASSETS.icon_void, 5, hbxLoc-57*size, hbyLoc-BattleScreen_Minis_hitboxHeight*poffset-40*size, 1.98*size)
 
   console.log(chara)
 }

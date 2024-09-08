@@ -50,13 +50,16 @@ function battleScreen_disk_onMaxDiskSelect() {
   //distrubute combos and magia gems
   for(var i = 0; i < layer.children.length; i++) {
     var disk = layer.children[i];
-    if(disk.isSelected) getMyChara(disk.charaID).connect++
-    if(disk.type == "blast_h" || disk.type == "blast_v") blastSel++;
-    else if(disk.type == "accele") acceleSel++;
-    else if(disk.type == "charge") chargeSel++;
+    if(disk.isSelected) {
+      getMyChara(disk.charaID).connect++
+      if(disk.type == "blast_h" || disk.type == "blast_v") blastSel++;
+      else if(disk.type == "accele") acceleSel++;
+      else if(disk.type == "charge") chargeSel++;
 
-    if(lastChara == null) lastChara = disk.charaID;
-    if(lastChara != disk.charaID) lastChara == "noCombo"
+      if(lastChara == null) lastChara = disk.charaID;
+      if(lastChara != disk.charaID) lastChara = "noCombo"
+      console.log(lastChara + " " + disk.charaID)
+    }
   }
 
   if(lastChara != "noCombo") alert("Puella Combo")
