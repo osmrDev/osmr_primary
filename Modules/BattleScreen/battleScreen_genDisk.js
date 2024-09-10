@@ -46,7 +46,7 @@ function battleScreen_disk_onMaxDiskSelect() {
   var chargeSel = 0;
 
   var lastChara = null; //used for dertimining Puella combo
-
+  var isCombo = false;
   //distrubute combos and magia gems
   for(var i = 0; i < layer.children.length; i++) {
     var disk = layer.children[i];
@@ -58,19 +58,26 @@ function battleScreen_disk_onMaxDiskSelect() {
 
       if(lastChara == null) lastChara = disk.charaID;
       if(lastChara != disk.charaID) lastChara = "noCombo"
-      console.log(lastChara + " " + disk.charaID)
     }
   }
 
-  if(lastChara != "noCombo") alert("Puella Combo")
+  if(lastChara != "noCombo") {
+    alert("Puella Combo")
+    isCombo = true;
+  }
+
+  //deal damage
+  for(var i = 0; i < layer.children.length; i++) {
+    var disk = layer.children[i];
+    if(disk.isSelected) {
+      battleScreen_doDamage(disk, isCombo);
+    }
+  }
 
   //clear disks
   clearLayer(layer);
+  battleScreen_genDisk() //make new disks
 
-
-
-  //do battle
-  battleScreen_genDisk() // temp
 }
 
 
@@ -141,7 +148,7 @@ function battleScreen_disk_mkdsk(charaID, type) {
   element.x = 16
   //----------------------------------------------------------------------------
   //character icon
-  var charaIco = makeSprite([ASSETS.minis_path+"mini_"+charaID+"_d.png"]);
+  var charaIco = makeSprite([ASSETS.minis_path+"mini_"+charaID.split('-')[0]+"_d.png"]);
   charaIco.x = -5
   charaIco.y = -20
 

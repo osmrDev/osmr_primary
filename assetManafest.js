@@ -126,8 +126,8 @@ const ASSETS = {
 
     ui_command_tx_05:["resource/package/quest/quest_image0.png",70,29,775,925], //magia text text
 
-    icon_dark:["resource/package/quest/quest_image0.png",26,26,879,381],
-    icon_fire:["resource/package/quest/quest_image0.png",26,26,849,381],
+    icon_fire:["resource/package/quest/quest_image0.png",26,26,879,381],
+    icon_dark:["resource/package/quest/quest_image0.png",26,26,849,381],
     icon_green:["resource/package/quest/quest_image0.png",26,26,937,146], //LOL green
     icon_light:["resource/package/quest/quest_image0.png",26,26,943,719],
     icon_void:["resource/package/quest/quest_image0.png",26,26,943,749],
