@@ -80,9 +80,9 @@ function place(obj, loction, offsetRight, offsetBtm, zoom) {
 
 function ezPlaceGraphics(parent, gra, loction, offsetRight, offsetBtm, zoom) {
 
-  zoom*=UiSize;
-  offsetBtm*=UiSize;
-  offsetRight*=UiSize;
+  //zoom*=UiSize;
+  //offsetBtm*=UiSize;
+  //offsetRight*=UiSize;
 
   var char1tx = GV_app.renderer.generateTexture(gra);
   var sobj = new PIXI.Sprite(char1tx);
@@ -97,7 +97,7 @@ function ezPlaceCropped(parent, asset, loction, offsetRight, offsetBtm, zoom) {
   subTexture = new PIXI.Texture(renderTexture, new PIXI.Rectangle(asset[3], asset[4], asset[1], asset[2]))
   var sobj = new PIXI.Sprite(subTexture);
 
-  placer(sobj, loction, offsetRight, offsetBtm, zoom);
+  placer(sobj, loction, offsetRight*1, offsetBtm*1, zoom*1);
 
   parent.addChild(sobj)
   return sobj;
