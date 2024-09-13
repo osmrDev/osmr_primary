@@ -24,7 +24,7 @@ function battleScreen_genDisk() {
     avaliableDisk.splice(randomDiskIdx, 1);
 
     //select disk
-    var disk = battleScreen_disk_mkdsk(randomDisk.cid, randomDisk.diskType)
+    var disk = battleScreen_disk_mkdsk(randomDisk.cid, randomDisk.diskType);
 
     //place disk
     layerPlace(disk, 8, -(2*BattleScreen_Disk_DiskSpacing*UiSize)+i*BattleScreen_Disk_DiskSpacing*UiSize ,0,UiSize)
@@ -48,17 +48,15 @@ function battleScreen_disk_onMaxDiskSelect() {
   var lastChara = null; //used for dertimining Puella combo
   var isCombo = false;
   //distrubute combos and magia gems
-  for(var i = 0; i < layer.children.length; i++) {
-    var disk = layer.children[i];
-    if(disk.isSelected) {
-      getMyChara(disk.charaID).connect++
-      if(disk.type == "blast_h" || disk.type == "blast_v") blastSel++;
-      else if(disk.type == "accele") acceleSel++;
-      else if(disk.type == "charge") chargeSel++;
+  for(var i = 0; i < SAVEGAME.diskBuffer.length; i++) {
+    var disk = SAVEGAME.diskBuffer[i]
+    getMyChara(disk.charaID).connect++
+    if(disk.type == "blast_h" || disk.type == "blast_v") blastSel++;
+    else if(disk.type == "accele") acceleSel++;
+    else if(disk.type == "charge") chargeSel++;
 
-      if(lastChara == null) lastChara = disk.charaID;
-      if(lastChara != disk.charaID) lastChara = "noCombo"
-    }
+    if(lastChara == null) lastChara = disk.charaID;
+    if(lastChara != disk.charaID) lastChara = "noCombo"
   }
 
   if(lastChara != "noCombo") {
@@ -67,20 +65,18 @@ function battleScreen_disk_onMaxDiskSelect() {
   }
 
   //deal damage
-  for(var i = 0; i < layer.children.length; i++) {
-    var disk = layer.children[i];
-    if(disk.isSelected) {
-      battleScreen_doDamage(disk, isCombo);
-    }
+  for(var i = 0; i < SAVEGAME.diskBuffer.length; i++) {
+    var disk = SAVEGAME.diskBuffer[i];
+    battleScreen_doDamage(disk, isCombo, false);
   }
 
   //clear disks
+  SAVEGAME.diskBuffer = [];
   clearLayer(layer);
   battleScreen_genDisk() //make new disks
-
+  battleScreen_genDisk_drawDiskBuff();
+  console.log("----- ");
 }
-
-
 //creates 1 disk
 //input: name of chara from team (string), type of disk atack (string - blast, charge, etc.)
 var Temp_SelectedDiskCount = 0;
@@ -134,6 +130,7 @@ function battleScreen_disk_mkdsk(charaID, type) {
   else if(chara.connect == 2) connectGems = makeSubTexSprite(ASSETS.connect_02);
   else connectGems = makeSubTexSprite(ASSETS.connect_03);
   connectGems.y=3;
+  disk.connectGems = connectGems;
 
   //----------------------------------------------------------------------------
   //elements
@@ -163,13 +160,13 @@ function battleScreen_disk_mkdsk(charaID, type) {
   //----------------------------------------------------------------------------
   disk.interactive = true
   disk.cursor = 'pointer';
-  disk.isSelected = false;
   disk.connectCharacter = null;
   disk.type = type;
   disk.charaID = charaID;
   disk.deadZone = true;
   disk.originalX = null;
   disk.originalY = null;
+  disk.isSelected = false;
 
   var layer = GV_app.stage.getChildByName("diskLayer");
 
@@ -211,8 +208,8 @@ function battleScreen_disk_mkdsk(charaID, type) {
              && Math.abs(charaLst.children[i].y - (disk.y+disk.width/2)) <= BattleScreen_Disk_DropHitSize*PixelSize*PixelSize) { //PixelSized squared. why? idk. Either geometry of pixel zoom is applied twice somewhere
           disk.connectCharacter = charaLst.children[i];
           for(var j = 0; j < disk.children.length; j++) {disk.children[j].tint = 0x999999;}
-          Temp_SelectedDiskCount++;
-          if(Temp_SelectedDiskCount == BattleScreen_Disk_MaxDiskSelect) battleScreen_disk_onMaxDiskSelect();
+          //Temp_SelectedDiskCount++;
+          //if(Temp_SelectedDiskCount == BattleScreen_Disk_MaxDiskSelect) battleScreen_disk_onMaxDiskSelect();
           break;
         }
       }
@@ -224,27 +221,22 @@ function battleScreen_disk_mkdsk(charaID, type) {
     //if disk not dragged do regular select
     else {
       if(disk.isSelected) {   //Deselect disk if disk is selected
-        //untint each sprite
         for(var j = 0; j < disk.children.length; j++) {disk.children[j].tint = 0xffffff;} //untint disk
+        battleScreen_genDisk_remDisk2buff(disk); //add disk to selected disk buffer;
         disk.isSelected = false;
-        Temp_SelectedDiskCount--;
       }
 
       else if(disk.connectCharacter != null) { //deconnect disk if disk is connected
-        for(var j = 0; j < disk.children.length; j++) {disk.children[j].tint = 0xffffff;} //untint disk
+        /*for(var j = 0; j < disk.children.length; j++) {disk.children[j].tint = 0xffffff;} //untint disk
         disk.connectCharacter = null;
-        Temp_SelectedDiskCount--;
+        Temp_SelectedDiskCount--;*/
+
       }
 
-      else {
+      else { //unselected disk selected
         //TODO: selected disk logic
-
         disk.isSelected = true;
-        Temp_SelectedDiskCount++;
-        if(Temp_SelectedDiskCount == BattleScreen_Disk_MaxDiskSelect) {
-          Temp_SelectedDiskCount = 0;
-          battleScreen_disk_onMaxDiskSelect();
-        }
+        battleScreen_genDisk_addDisk2buff(disk)
         for(var j = 0; j < disk.children.length; j++) {disk.children[j].tint = 0x999999;} //tint disk
       }
     }
@@ -259,4 +251,51 @@ function battleScreen_disk_mkdsk(charaID, type) {
 
 
   return disk;
+}
+
+
+function battleScreen_genDisk_drawDiskBuff() {
+  var layer = GV_app.stage.getChildByName("diskLayer");
+
+  //undraw the old disks
+  while(objExist(layer.getChildByName("disksels"))) {
+    layer.removeChild(layer.getChildByName("disksels"))
+  }
+
+  //draw buffer
+  var start = 0;
+  var diskSeperation = 100;
+  var diskSeperationTop = 25;
+  for(var i = 0; i < SAVEGAME.diskBuffer.length; i++) {
+    var d = battleScreen_disk_mkdsk(SAVEGAME.diskBuffer[i].charaID, SAVEGAME.diskBuffer[i].type);
+    d.interactive = false;
+    d.connectGems.alpha = 0
+    d.name = "disksels"
+    layerPlace(d, 2, start+diskSeperation*i*UiSize , diskSeperationTop*UiSize, UiSize*.7)
+    layer.addChild(d)
+  }
+}
+
+function battleScreen_genDisk_addDisk2buff(disk) {
+  //Add disk to buffer
+  SAVEGAME.diskBuffer.push(disk)
+
+  //do attacks if buffer is full
+  if(SAVEGAME.diskBuffer.length == BattleScreen_Disk_MaxDiskSelect) {
+    battleScreen_disk_onMaxDiskSelect()
+  }
+
+  //draw buffer
+  battleScreen_genDisk_drawDiskBuff();
+}
+
+function battleScreen_genDisk_remDisk2buff(disk) {
+
+  for(var i = 0; i < SAVEGAME.diskBuffer.length; i++) {
+    if(SAVEGAME.diskBuffer[i] == disk) {
+      SAVEGAME.diskBuffer.splice(i, 1);
+    }
+  }
+
+  battleScreen_genDisk_drawDiskBuff();
 }

@@ -1,4 +1,13 @@
 
+/*
+ 0   1    <= side
+--- ---
+321 123
+654 456   <= pos
+987 789
+*/
+
+
 //find and return a chara from your unlocked charas (passed as refrence)
 function getMyChara(cid) {
   for(var i = 0; i < SAVEGAME.my_chara.length; i++) {
@@ -27,6 +36,13 @@ function getCharaGridPos(charaID) {
   return null;
 }
 
-function getCharaAtPos(pos, side) {
 
+function getCharaAtPos(pos, side) {
+  if(side == 1) {
+      for(var i = 0; i < SAVEGAME.opfor[SAVEGAME.current_wave].length; i++) {
+        if(SAVEGAME.opfor[SAVEGAME.current_wave][i].pos == pos) return getOpChara(SAVEGAME.opfor[SAVEGAME.current_wave][i].charaID)
+    }
+  }
+
+  return null;
 }

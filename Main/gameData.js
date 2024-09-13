@@ -7,6 +7,8 @@ var SAVEGAME = {
   //This is to allow you to have preset team positions
   //NOTE: charaID have the OG ID followed by a hyphen digit. hyphen digit allows for duplicates of characters
   active_team: 0,
+  num_charge: 0,
+  diskBuffer: [],
   teamlist: [
     [{charaID:"100100-0", pos:1},{charaID:"100200-0", pos:5},],
   ],
