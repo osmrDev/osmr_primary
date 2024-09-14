@@ -133,9 +133,9 @@ const ASSETS = {
     icon_void:["resource/package/quest/quest_image0.png",26,26,943,749],
     icon_water:["resource/package/quest/quest_image0.png",26,26,943,779],
 
-    hp_bar01:["resource/package/quest/quest_image0.png",100,14,345,991], //blue bar
+    hp_bar01:["resource/package/quest/quest_image0.png",100,14,345,991], //red bar
     hp_bar02:["resource/package/quest/quest_image0.png",79,14,821,784], //blue bar
-    hp_bar03:["resource/package/quest/quest_image0.png",79,14,733,791], //blue bar
+    hp_bar03:["resource/package/quest/quest_image0.png",79,14,733,791], //pur bar
     qus_chara_hp_gauge:["resource/package/quest/quest_image0.png",142,18,284,919], //single bar
     qus_chara_hp_gauge_base_ex:["resource/package/quest/quest_image0.png",122,10,563,915], //single bar
     hp_bg01:["resource/package/quest/quest_image0.png",176,61,1,943], //chara hp bar + charge + element

@@ -24,21 +24,40 @@ var VnScreen_chara_spriteZoom = 3;
 var VnScreen_chara_spacing = 320;
 var VnScreen_chara_height = 150;
 
+
+
 var L2dloader_timeoutCount = 100;
 var L2dloader_timeoutInterval = 30;
+
+
 
 var HomeScreen_FavChara = "100153" //100100 is iroha
 var HomeScreen_SubtitleColor = "#414141";
 var HomeScreen_SubtitleOutline = "#ffffff";
 var HomeScreen_SubtitleFontSize = 16;
 
+
+
 var BattleScreen_Disk_DropHitSize = 50;
 var BattleScreen_Disk_MoveDeadzone = 50;
 var BattleScreen_Disk_MaxDiskSelect = 3;
 var BattleScreen_Disk_DiskPoolSize = 5;
 var BattleScreen_Disk_DiskSpacing = 125;
+
 var BattleScreen_Minis_HBAlpha = .5;
 var BattleScreen_Minis_hitboxHeight = 150;
 var BattleScreen_Minis_hitboxWidth = 100;
+
 var BattleScreen_hpInfo_charaHPinfoSize = .7;
 var BattleScreen_hpInfo_charaHPinfoHeight = 1;
+
+var BattleScreen_DMG_OppsiteAffinityBonus = 2;
+var BattleScreen_DMG_BlastComboModif = 1.25;
+var BattleScreen_DMG_PuellaComboModif = 2;
+var BattleScreen_DMG_ChargeModifDmg = .25;
+var BattleScreen_DMG_ChargeModifMp = .25;
+var BattleScreen_DMG_ChargeComboBonus = 1;
+var BattleScreen_DMG_MPGainPerDisk = 20;
+var BattleScreen_DMG_MPComboBonus = 20;
+var BattleScreen_DMG_MPMax = 100;
+var BattleScreen_DMG_MPOverfill = 200;

@@ -1,7 +1,7 @@
 
 
 /*
-locations:
+Screen locations:
 ┌──────────────────────────┐
 │ 1           2         3  │
 │                          │

@@ -10,11 +10,11 @@ var SAVEGAME = {
   num_charge: 0,
   diskBuffer: [],
   teamlist: [
-    [{charaID:"100100-0", pos:1},{charaID:"100200-0", pos:5},],
+    [{charaID:"100100-0", pos:1},{charaID:"100200-0", pos:5}],
   ],
   my_chara: [
-    {charaID:"100100-0", pos:1, hp_base:1000, hp_max:1000, hp_current:1000, mp:0, def_base:100, def:100, connect:0, element:"light", disk:["accele", "accele", "charge", "charge", "blast_v"], effects:[]},
-    {charaID:"100200-0", pos:5, hp_base:1000, hp_max:1000, hp_current:1000, mp:0, def_base:100, def:100, connect:0, element:"water", disk:["accele", "accele", "charge", "charge", "blast_v"], effects:[]},
+    {charaID:"100100-0", pos:1, hp_base:1000, hp_max:1000, hp_current:1000, mp:0, def_base:100, def:100, dmg_base:100, connect:0, element:"light", disk:["accele", "accele", "charge", "charge", "blast_v"], effects:[]},
+    {charaID:"100200-0", pos:5, hp_base:1000, hp_max:1000, hp_current:1000, mp:0, def_base:100, def:100, dmg_base:100, connect:0, element:"water", disk:["accele", "accele", "blast_h", "charge", "blast_v"], effects:[]},
   ],
 
   //enemies are handled like charas, their data is stored in "opponent" array
@@ -25,8 +25,8 @@ var SAVEGAME = {
     [{charaID:"715000-0", pos:1},{charaID:"715000-1", pos:7},], //wave1
   ],
   opponent: [
-    {charaID:"715000-0", pos:1, hp_base:1000, hp_max:1000, hp_current:1000, mp:0, def_base:100, def:100, connect:0, element:"dark", disk:["accele", "accele", "accele", "accele", "accele"], effects:[]},
-    {charaID:"715000-1", pos:7, hp_base:1000, hp_max:1000, hp_current:1000, mp:0, def_base:100, def:100, connect:0, element:"dark", disk:["accele", "accele", "accele", "accele", "accele"], effects:[]},
+    {charaID:"715000-0", pos:1, hp_base:1000, hp_max:1000, hp_current:1000, mp:0, def_base:100, def:100, dmg_base:100, connect:0, element:"dark", disk:["accele", "accele", "accele", "accele", "accele"], effects:[]},
+    {charaID:"715000-1", pos:7, hp_base:1000, hp_max:1000, hp_current:1000, mp:0, def_base:100, def:100, dmg_base:100, connect:0, element:"dark", disk:["accele", "accele", "accele", "accele", "accele"], effects:[]},
   ]
 }
 

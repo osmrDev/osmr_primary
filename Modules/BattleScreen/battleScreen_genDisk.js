@@ -59,15 +59,27 @@ function battleScreen_disk_onMaxDiskSelect() {
     if(lastChara != disk.charaID) lastChara = "noCombo"
   }
 
-  if(lastChara != "noCombo") {
+  //bonuses
+  if(lastChara != "noCombo") { //check for puella combo
     alert("Puella Combo")
     isCombo = true;
+  }
+  if(chargeSel == BattleScreen_Disk_MaxDiskSelect) {
+    SAVEGAME.num_charge += BattleScreen_DMG_ChargeComboBonus;
+  }
+  //distrubute accell if combo
+  if(acceleSel == BattleScreen_Disk_MaxDiskSelect) {
+    for(var i = 0; i < SAVEGAME.teamlist[SAVEGAME.active_team].length; i++) {
+      var chara = getMyChara(SAVEGAME.teamlist[SAVEGAME.active_team][i].charaID)
+      chara.mp += BattleScreen_DMG_MPComboBonus;
+      battleScreen_updateHpInfo(chara);
+    }
   }
 
   //deal damage
   for(var i = 0; i < SAVEGAME.diskBuffer.length; i++) {
     var disk = SAVEGAME.diskBuffer[i];
-    battleScreen_doDamage(disk, isCombo, false);
+    battleScreen_doDamage(disk, isCombo, (blastSel == BattleScreen_Disk_MaxDiskSelect));
   }
 
   //clear disks
@@ -167,6 +179,7 @@ function battleScreen_disk_mkdsk(charaID, type) {
   disk.originalX = null;
   disk.originalY = null;
   disk.isSelected = false;
+  disk.element = chara.element;
 
   var layer = GV_app.stage.getChildByName("diskLayer");
 
