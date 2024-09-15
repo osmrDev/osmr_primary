@@ -1,19 +1,19 @@
 
 
 //
-var arho;
-var arvo;
+
 function cropFrame(aspect_ratio) {
 
-  arho = (GV_app.screen.height - GV_app.screen.width / AspectRatio ) / 2
-  if(arho < 0) arho = 0;
-  arvo = (GV_app.screen.width - GV_app.screen.height * AspectRatio ) / 2
-  if(arvo < 0) arvo = 0;
+  if(aspect_ratio == 0) return;
 
   var blackBarHeight = (GV_app.screen.height - GV_app.screen.width / aspect_ratio ) / 2;
   var blackBarWidth = (GV_app.screen.width - GV_app.screen.height * aspect_ratio ) / 2;
 
-  var blackBar = new PIXI.Graphics();
+  var blackBar = GV_app.stage.getChildByName("cropBar")
+  GV_app.stage.removeChild(GV_app.stage.getChildByName("cropBar"))
+  blackBar = new PIXI.Graphics();
+  blackBar.name = "cropBar"
+
   blackBar.beginFill(0x500000);
 
   if(blackBarHeight > 0) {

@@ -22,11 +22,29 @@ function startGame() {
 
 }
 
+function startStoryEditor() {
+  console.log("starting story editor")
+  initPixii();
+  startScreen();
+  GV_app.screen.width = 500
+  GV_app.view.width = 2500
+  updateAspectRatio()
+  document.getElementById("InitialLoadingScreen").remove(); //get rid of loading screen
+  document.getElementById("pixiCanvas").style.display = "block" //show canvas
+}
+
+function getLaunchMode() {
+  var url_string = window.location.href;
+  var url = new URL(url_string);
+  var c = url.searchParams.get("mode");
+  return(c)
+}
 
 if(loadChk()) {
   //GV_app.renderer.resize(40, 300);
 
 
-  startGame()
+  if(getLaunchMode() == "editor") startStoryEditor();
+  else startGame();
 
 }

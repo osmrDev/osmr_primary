@@ -11,8 +11,7 @@ function dispHomeScreen_bg(){
 
     //Backgrounds
     var sky1 = makeSubTexSprite(ASSETS.sora02)
-    placer(sky1, 8, 0, 0, 1)
-    sky1.scale.x *= 2
+    placer(sky1, 8, 0, 0, 2, .5)
     bgLayer.addChild(sky1)
 
     var bgclouds = makeSubTexSprite(ASSETS.sora03)

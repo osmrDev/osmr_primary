@@ -4,6 +4,12 @@ function tc() {
   vnScreen(STORY.prolouge_1)
 }
 
+function vnScreen_skipTo() {
+
+  
+
+}
+
 async function vnScreen(scene) {
 
   clearPixi();

@@ -30,6 +30,7 @@ function battleScreen() {
 
 
   battleScreen_startMission(); //temp
+  
 
   cropFrame(AspectRatio);
 }

@@ -6,12 +6,11 @@
       <link rel="stylesheet" href="index.css">
     </head>
     <body>
-      <!--<canvas id="a" width="1920" height="1080" style="outline:none;width:100%;height:100%;"
-              class="a" tabindex="99"></canvas>
-      <canvas id="p" width="1920" height="1080" style="outline:none;width:100%;height:100%;"
-              class="a" tabindex="99"></canvas>-->
-      <canvas id="pixiCanvas" width="200" height="250" style="position:absolute;top:0px;left:0px;z-index:0"
-              class="pixiCanvas" tabindex="99"></canvas>
+      <!--Renderer-->
+      <div style="position:absolute;top:0px;left:0px;z-index:2">
+        <canvas id="pixiCanvas" width="200" height="250" style="position:absolute;top:0px;left:0px;z-index:0"class="pixiCanvas" tabindex="99"></canvas>
+      </div>
+
       <div style="position:absolute;top:0px;left:0px;z-index:2">
         <canvas id="gameCanvas" width="200" height="250" style=""
                 class="gameCanvas" tabindex="99"></canvas>
@@ -19,14 +18,14 @@
       <canvas id="pixiCanvas2" width="200" height="250" style=""
               class="pixiCanvas2" tabindex="99"></canvas>
 
-
+        <!--Msgs-->
         <p id="JS_Chk">Javascript not loaded. Check if JS is enabled or try wating a while...</p>
-        <!-- Magia ReRecord | Pre-Alpha 2 -->
 
         <div id="InitialLoadingScreen">
           <p> Game is loading... </p>
         </div>
 
+        <!--JS-->
         <script>document.getElementById("JS_Chk").remove(); </script>
 
         <script src="./assetManafest.js"></script>
@@ -97,6 +96,8 @@
         <script src="./Modules/VnScreen/vnScreen_textbox.js"></script>
         <script src="./Modules/VnScreen/vnScreen_chara.js"></script>
         <script src="./Modules/VnScreen/vnScreen_nonCharaAudio.js"></script>
+
+        <script src="./Editor/editorMain.js"></script>
 
         <!-- start game -->
         <script src="./Main/startGame.js"></script>

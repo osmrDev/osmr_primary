@@ -11,20 +11,35 @@ Screen locations:
 └──────────────────────────┘
 */
 
+//obj = the sprite you want to place
+//location = see diagram above
+//offsets = how many pixels (auto scaled) left or right to offset by
+//zoom = scale (2 = twice width, twice height)
+//zoomRatio = scale of width zoom to height zoom, ratio of 0.5 means width is zoom half as much
+function placer(obj, loction, offsetRight, offsetBtm, zoom, zoomRatio) {
+  if(!objExist(zoomRatio)) zoomRatio = 1;
+  placerList.push( {obj:obj, loction:loction, offsetRight:offsetRight, offsetBtm:offsetBtm, zoom:zoom, zoomRatio:zoomRatio} )
 
-function placer(obj, loction, offsetRight, offsetBtm, zoom) {
+  return placer_updateObjLoc(obj, loction, offsetRight, offsetBtm, zoom, zoomRatio)
+}
 
+function placer_updateObjLoc(obj, loction, offsetRight, offsetBtm, zoom, zoomRatio) {
   offsetRight *= PixelSize;
   offsetBtm *= PixelSize;
 
-  obj.scale.set(PixelSize*zoom, PixelSize*zoom);
+  var mirroredX = (zoom < 0);
+  var mirroredY = (zoomRatio < 0);
+  if(zoom < 0) zoom *= -1;
+  if(zoomRatio < 0) zoomRatio *= -1;
+
+  obj.scale.set(PixelSize*zoom, PixelSize*zoom*zoomRatio);
 
   //aspect ratio height offset
   //Without this, placer will place object at the top or bottom edge of screen
   //Arho and Varho provides offset so that it places at edge of viewable area
   //// TODO: move outside
 
-
+  placerList
   switch(loction) {
   case 1:
     obj.anchor.set(0.0,0.0);
@@ -65,7 +80,8 @@ function placer(obj, loction, offsetRight, offsetBtm, zoom) {
   default: console.log("error: invalid obj place location"); break;
   }
 
-
+  if(mirroredY) obj.scale.y *= -1;
+  if(mirroredX) obj.scale.x *= -1;
   return obj;
 
 }
@@ -130,12 +146,19 @@ function layerScale(layer) {
   layer.y+=arho*UiSize;
 }
 
-function layerPlace(obj, loction, offsetRight, offsetBtm, zoom) {
+function layerPlace(obj, loction, offsetRight, offsetBtm, zoom, zoomRatio) {
+  if(!objExist(zoomRatio)) zoomRatio = 1;
+  layerPlacerList.push( {obj:obj, loction:loction, offsetRight:offsetRight, offsetBtm:offsetBtm, zoom:zoom, zoomRatio:zoomRatio} )
+
+  return layerPlace_updateObjLoc(obj, loction, offsetRight, offsetBtm, zoom, zoomRatio)
+}
+
+function layerPlace_updateObjLoc(obj, loction, offsetRight, offsetBtm, zoom, zoomRatio) {
 
   offsetRight *= PixelSize;
   offsetBtm *= PixelSize;
 
-  obj.scale.set(PixelSize*zoom, PixelSize*zoom);
+  obj.scale.set(PixelSize*zoom, PixelSize*zoom*zoomRatio);
 
   //aspect ratio height offset
   //Without this, placer will place object at the top or bottom edge of screen

@@ -55,4 +55,19 @@ function battleScreen_updateHpInfo(chara) {
   else if(chara.mp <= BattleScreen_DMG_MPOverfill) mpbar2.scale.set(1*BattleScreen_hpInfo_charaHPinfoSize*((chara.mp-BattleScreen_DMG_MPMax)/(BattleScreen_DMG_MPOverfill-BattleScreen_DMG_MPMax))*PixelSize, 1*BattleScreen_hpInfo_charaHPinfoSize*PixelSize);
   else mpbar2.scale.set(1*BattleScreen_hpInfo_charaHPinfoSize*(1)*PixelSize, 1*BattleScreen_hpInfo_charaHPinfoSize*PixelSize);
 
+  hpbar.anchor.set(0,.50)
+  mpbar.anchor.set(0,.50)
+  mpbar2.anchor.set(0,.50)
+}
+
+
+function battleScreen_updateHpInfoAll() {
+  if(objExist(GV_app.stage.getChildByName("hpInfoLayer"))) {
+    for(var i = 0; i < SAVEGAME.teamlist[SAVEGAME.active_team].length; i++) {
+      battleScreen_updateHpInfo(getMyChara(SAVEGAME.teamlist[SAVEGAME.active_team][i].charaID))
+    }
+    for(var i = 0; i < SAVEGAME.opfor[SAVEGAME.current_wave].length; i++) {
+      battleScreen_updateHpInfo(getOpChara(SAVEGAME.opfor[SAVEGAME.current_wave][i].charaID))
+    }
+  }
 }

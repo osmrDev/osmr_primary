@@ -184,9 +184,9 @@ function battleScreen_disk_mkdsk(charaID, type) {
   var layer = GV_app.stage.getChildByName("diskLayer");
 
 
-
   disk.on('pointerdown', function() {
-
+    disk.originalX = disk.x;
+    disk.originalY = disk.y;
 
     disk.deadZone = true
 
@@ -257,9 +257,9 @@ function battleScreen_disk_mkdsk(charaID, type) {
   });
 
   disk.on('pointerleave', function() {
-    disk.off('pointermove')
-    disk.x = disk.originalX;
-    disk.y = disk.originalY;
+    //disk.off('pointermove')
+    //disk.x = disk.originalX;
+    //disk.y = disk.originalY;
   });
 
 

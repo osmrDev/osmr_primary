@@ -17,7 +17,7 @@ function initPixii() {
   //Create Pixi window
   GV_app = new PIXI.Application({
     resizeTo: window,
-  	autoResize: true,
+  	autoResize: false,
     resolution: devicePixelRatio,
     view: document.getElementById("pixiCanvas"),
     BackgroundAlpha: 0
@@ -48,5 +48,8 @@ function clearPixi() {
   loadingtext.anchor.set(0.5, 0.5);
   loadingtext.position.set(GV_app.screen.width/2 ,GV_app.screen.height/2 );
   GV_app.stage.addChild(loadingtext);
+
+  placerList = [];
+  layerPlacerList = [];
 
 }

@@ -1,3 +1,6 @@
+
+var DyamicResize = true;
+
 var StoriesScreen_storiesListSpacing = 100;
 
 var VnScreen_dspItem_fadeInRate = 0.05;
