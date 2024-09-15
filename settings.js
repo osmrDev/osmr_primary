@@ -54,9 +54,9 @@ var BattleScreen_Minis_hitboxWidth = 100;
 var BattleScreen_hpInfo_charaHPinfoSize = .7;
 var BattleScreen_hpInfo_charaHPinfoHeight = 1;
 
-var BattleScreen_DMG_OppsiteAffinityBonus = 2;
+var BattleScreen_DMG_OppsiteAffinityBonus = 1.5;
 var BattleScreen_DMG_BlastComboModif = 1.25;
-var BattleScreen_DMG_PuellaComboModif = 2;
+var BattleScreen_DMG_PuellaComboModif = 1.5;
 var BattleScreen_DMG_ChargeModifDmg = .25;
 var BattleScreen_DMG_ChargeModifMp = .25;
 var BattleScreen_DMG_ChargeComboBonus = 1;

@@ -27,7 +27,7 @@ function battleScreen_genDisk() {
     var disk = battleScreen_disk_mkdsk(randomDisk.cid, randomDisk.diskType);
 
     //place disk
-    layerPlace(disk, 8, -(2*BattleScreen_Disk_DiskSpacing*UiSize)+i*BattleScreen_Disk_DiskSpacing*UiSize ,0,UiSize)
+    layerPlace(disk, 8, -(2*BattleScreen_Disk_DiskSpacing)+i*BattleScreen_Disk_DiskSpacing ,0,1)
     disk.originalX = disk.x;
     disk.originalY = disk.y;
     layer.addChild(disk)
