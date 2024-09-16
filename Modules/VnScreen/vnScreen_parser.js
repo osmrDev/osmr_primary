@@ -5,6 +5,10 @@ var debug_currentScene;
 
 var jsonScript;
 var sceneNum = 0;
+
+var vnParserDBG = true;
+var vnParserIgnore = ["autoTurnLast","item","narration","voice","voiceStop","bgm","nameLeft"]
+
 function vnScreen_parser_rescursive(jsonScript) {
 
   if(sceneNum > jsonScript.length-1) return;
@@ -26,13 +30,16 @@ function vnScreen_parser_rescursive(jsonScript) {
   //l2d charaters
   vnScreen_chara(currentScene);
 
-  //l2d charaters
+  //SFX
+  vnScreen_sfxParser(currentScene)
+
+  //text
   vnScreen_textbox(currentScene);
 
   //narration
   vnScreen_narration(currentScene);
 
-  //sfx
+  //audio
   vnScreen_nonCharaAudio(currentScene);
 
 

@@ -12,8 +12,7 @@ function vnScreen_textbox(currentScene) {
   clearLayer(layer);
 
   //Updates Data----------------------------------------------------------------
-  if(objExist(currentScene.textRight)) VnScreen_textbox_currentText = currentScene.textRight;
-  if(objExist(currentScene.textLeft)) VnScreen_textbox_currentText = currentScene.textLeft;
+
   //TODO: Center Stuff
 
   if(objExist(currentScene.nameRight)) VnScreen_textbox_nameRight = currentScene.nameRight;
@@ -61,10 +60,11 @@ function vnScreen_textbox(currentScene) {
 
   //TODO: Text fromatting and effects
   var btxt = null;
-  if(VnScreen_textbox_currentText != "") {
-    btxt = makeNTextNoScale(VnScreen_textbox_currentText, VnScreen_textbox_nameTextSize);
+  if(VnScreen_JsConvertedString != "") {
+    btxt = makeNTextNoScale(VnScreen_JsConvertedString, VnScreen_textbox_nameTextSize);
     btxt.style.fill = VnScreen_textbox_bodyTextColor
     btxt.anchor.set(0,0)
+    btxt.style.align = "left"
     btxt.x = -360;
     btxt.y = -ASSETS.story_ui_fukidashi_01_r[2] + 70;
     bg.addChild(btxt);

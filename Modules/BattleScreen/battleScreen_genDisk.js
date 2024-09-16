@@ -256,10 +256,14 @@ function battleScreen_disk_mkdsk(charaID, type) {
 
   });
 
-  disk.on('pointerleave', function() {
-    //disk.off('pointermove')
-    //disk.x = disk.originalX;
-    //disk.y = disk.originalY;
+  disk.on('pointerenter', function() {
+    disk.originalX = disk.x;
+    disk.originalY = disk.y;
+  });
+  disk.on('pointerleave', function() { //prevent draging on edge making disk sticky
+    disk.off('pointermove')
+    disk.x = disk.originalX;
+    disk.y = disk.originalY;
   });
 
 

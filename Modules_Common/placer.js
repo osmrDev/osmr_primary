@@ -27,12 +27,13 @@ function placer_updateObjLoc(obj, loction, offsetRight, offsetBtm, zoom, zoomRat
   offsetRight *= PixelSize;
   offsetBtm *= PixelSize;
 
-  var mirroredX = (zoom < 0);
-  var mirroredY = (zoomRatio < 0);
-  if(zoom < 0) zoom *= -1;
-  if(zoomRatio < 0) zoomRatio *= -1;
-
+  var mirrorY = false;
+  var mirrorX = false;
+  if(obj.scale.y < 0) mirrorY = true;
+  if(obj.scale.x < 0) mirrorX = true;
   obj.scale.set(PixelSize*zoom, PixelSize*zoom*zoomRatio);
+  if(mirrorY) obj.scale.y *= -1;
+  if(mirrorX) obj.scale.x *= -1;
 
   //aspect ratio height offset
   //Without this, placer will place object at the top or bottom edge of screen
@@ -80,8 +81,6 @@ function placer_updateObjLoc(obj, loction, offsetRight, offsetBtm, zoom, zoomRat
   default: console.log("error: invalid obj place location"); break;
   }
 
-  if(mirroredY) obj.scale.y *= -1;
-  if(mirroredX) obj.scale.x *= -1;
   return obj;
 
 }
@@ -158,12 +157,13 @@ function layerPlace_updateObjLoc(obj, loction, offsetRight, offsetBtm, zoom, zoo
   offsetRight *= PixelSize;
   offsetBtm *= PixelSize;
 
+  var mirrorY = false;
+  var mirrorX = false;
+  if(obj.scale.y < 0) mirrorY = true;
+  if(obj.scale.x < 0) mirrorX = true;
   obj.scale.set(PixelSize*zoom, PixelSize*zoom*zoomRatio);
-
-  //aspect ratio height offset
-  //Without this, placer will place object at the top or bottom edge of screen
-  //Arho and Varho provides offset so that it places at edge of viewable area
-  //// TODO: move outside
+  if(mirrorY) obj.scale.y *= -1;
+  if(mirrorX) obj.scale.x *= -1;
 
 
   switch(loction) {
